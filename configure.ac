@@ -3,17 +3,17 @@
 
 AC_PREREQ(2.57)
 
-AC_INIT(gksu, 2.0.2, kov@debian.org)
+AC_INIT(caja-gksu, 1.1.0, stefano@karapetsas.com)
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
-AC_CONFIG_SRCDIR(gksu/gksu.c)
+AC_CONFIG_SRCDIR(caja-gksu/libcaja-gksu.c)
 AM_CONFIG_HEADER(config.h)
 
 AM_MAINTAINER_MODE
 
 AC_DEFINE(PACKAGE, AC_PACKAGE_NAME, [package name])
 AC_DEFINE(VERSION, AC_PACKAGE_VERSION, [package version])
-AC_DEFINE([GETTEXT_PACKAGE], ["gksu"], [gettext domain])
-GETTEXT_PACKAGE=gksu
+AC_DEFINE([GETTEXT_PACKAGE], ["caja-gksu"], [gettext domain])
+GETTEXT_PACKAGE=caja-gksu
 AC_SUBST(GETTEXT_PACKAGE)
 
 # Checks for programs.
@@ -72,8 +72,6 @@ fi
 AC_CONFIG_FILES([
 	Makefile
 	po/Makefile.in
-	man/Makefile
-	gksu/Makefile
 	caja-gksu/Makefile
 	])
 AC_OUTPUT
