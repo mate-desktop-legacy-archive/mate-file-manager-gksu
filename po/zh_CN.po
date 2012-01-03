@@ -1,0 +1,287 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <zyangmath@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2007-04-02 23:22+0700\n"
+"Last-Translator: Yang Zhang <zyangmath@gmail.com>\n"
+"Language-Team: Chinese <translation-team-zh-cn@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu 版本 %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"用法：%s [-u <用户>] [选项] <命令>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug，-d\n"
+"   在屏幕上打印调试信息，这些信息可能\n"
+"   对诊断或解决问题有用。\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <用户>，-u <用户>\n"
+"    以指定用户身份运行 <命令>。\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab，-g\n"
+"    禁止在程序询问密码时锁定键盘、鼠标和焦点。\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt，-P\n"
+"    在独占键盘和鼠标前询问用户是否需要这样做。\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env，-k\n"
+"    保留当前环境，例如不重设 $HOME 和 $PATH。\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login，-l\n"
+"    以此作为登录 Shell。当心这可能会导致与 Xauthority magic 的问题。\n"
+"    运行 xhost 以允许目标用户在您的显示上打开窗口！\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <描述 | 文件>，-D <描述 | 文件>\n"
+"    为待运行的命令提供一个用在默认信息中的描述性名称以使它更漂亮。\n"
+"    您也可以提供一个 .desktop 文件的绝对路径，其 Name 键值将被用\n"
+"    作此用途。\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <信息>，-m <信息>\n"
+"    替换标准的询问密码的信息为本参数提供的信息。\n"
+"    请只在 --description 不符合需要时使用。\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass，-p\n"
+"    让 gksu 打印密码到标准输出，和 ssh-askpass 一样。\n"
+"    在包含能从标准输入接收密码的程序的脚本中很有用。\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode，-S\n"
+"    让 GKSu 使用 sudo 而不是 su，与运行“gksudo”效果一致。\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --su-mode，-w\n"
+"    让 GKSu 使用 su，而不是 libgksu 默认的方法。\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "高级选项"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>改变用户时所使用的选项</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "作为登录 shell (_l)"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "保留当前环境(_p)"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "运行程序"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "运行："
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "以身份："
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "高级(_A)"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "缺少待运行的命令。"
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "选项未被 --disable-grab 接受：%s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "选项未被 --prompt 接受：%s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>您想在输入密码时独占屏幕吗？</b>\n"
+"\n"
+"这意味着所有的应用程序将被暂停以避免您\n"
+"输入密码时被恶意程序窃听。"
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>缺少选项或参数</b></big>\n"
+"\n"
+"您需要提供 --description 或 --message。"
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>请求密码失败。</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr "用户 %s 不存在。"
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>密码不正确 ... 请重试。</b>"
+
+#: ../gksu/gksu.c:760
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>运行 %s (以用户 %s)失败</b>\n"
+"\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr "以 root 用户身份打开一个终端，使用 gksu 询问密码"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Root 终端"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "以管理员身份打开"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "以管理员权限打开文件"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+"<big><b>无法确定待运行的程序。</b></big>\n"
+"\n"
+"由于无法确定正确的应用程序，您选择的项无法以管理员身份打开。"

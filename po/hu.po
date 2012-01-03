@@ -1,0 +1,298 @@
+# Hungarian translation of gksu
+# Copyright (C)2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+#
+# Gabor Kelemen <kelemeng@mate.hu>, 2005, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-19 16:11-0300\n"
+"PO-Revision-Date: 2006-11-06 13:00+0100\n"
+"Last-Translator: Kelemen Gábor <kelemeng@mate.hu>\n"
+"Language-Team: Hungarian <mate@mate.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu %s verzió\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Használat: %s [-u <felhasználó>] [kapcsolók] <parancs>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    Információkat ír a képernyőre, melyek hasznosak\n"
+"    lehetnek problémák felismerésénél és/vagy megoldásánál.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <felhasználó>, -u <felhasználó>\n"
+"    A <parancsot> a megadott felhasználó nevében futtatja.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Kikapcsolja a billentyűzet, egér és fókusz \"zárolását\"\n"
+"    amikor a program jelszót kér.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Megkérdezi a felhasználót, hogy szeretné-e, hogy billentyűzete és\n"
+"    egere zárolva legyen, mielőtt megadja a jelszavát.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Megőrzi az aktuális környezetet, például nem állítja be sem a $HOME\n"
+"    sem a $PATH változókat.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Bejelentkezési héjjá teszi a jelenlegi héjat. Legyen óvatos, mert ez\n"
+"    problémákat okozhat az Xauthority varázslattal. Futtassa az xhost-ot\n"
+"    a célfelhasználó számára az ablaknyitás engedélyezéséhez a képernyőjén!\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <leírás|fájl>, -D <leírás|fájl>\n"
+"    Az alapértelmezett üzenetben használandó parancshoz\n"
+"    beszédes név megadása, szebbé téve azt.\n"
+"    Megadhatja egy .desktop fájl abszolút elérési útját.\n"
+"    Ebben az esetben annak Name kulcs kerül felhasználásra.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <üzenet>, -m <üzenet>\n"
+"    Lecseréli a jelszó bekérésekor megjelenő szabvány üzenetet a\n"
+"    kapcsoló paraméterében megadottra.\n"
+"    Csak akkor használja, ha a --description nem elegendő.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    A gksu kiírja a jelszót a szabványos kimenetre, hasonlóan\n"
+"    az ssh-askpasshoz. Olyan parancsfájlokban hasznos, melyekben lévő\n"
+"    programok elfogadják a jelszó szabványos bemenetről való beolvasását.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    A GKSu a sudot fogja használni a su helyett, mintha\n"
+"    \\gksudo\\-ként lett volna meghívva.\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    A GKSu a sudot fogja használni a libgksu alapértelmezése helyett.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Haladó beállítások"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Felhasználóváltáskor használandó beállítások</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "Bejelentkezési _héj"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "_Környezet megőrzése"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Program futtatása"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Futtatandó:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Ezen felhasználó nevében:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "_Haladó"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Nem adta meg a futtatandó parancsot."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "A kapcsolót nem fogadja el a --disble-grab: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "A kapcsolót nem fogadja el a --prompt: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Szeretné, ha a képernyője \"zárolva\" lenne\n"
+"amíg beírja a jelszót?</b>\n"
+"\n"
+"Ez azt jelenti, hogy minden alkalmazás fel lesz\n"
+"függesztve, hogy jelszavát ne tudják rosszindulatú\n"
+"programok lehallgatni, amíg begépeli."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Kapcsolók vagy paraméterek hiányoznak</b></big>\n"
+"\n"
+"Meg kell adnia a --description vagy --message egyikét."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>A jelszó bekérése meghiúsult.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:693
+#, c-format
+msgid "User %s does not exist."
+msgstr "%s felhasználó nem létezik."
+
+#: ../gksu/gksu.c:713
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Helytelen jelszó. Próbálkozzon újra.</b>"
+
+#: ../gksu/gksu.c:742
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>%s futtatása %s felhasználó nevében meghiúsult.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Megnyit egy rendszergazda terminált, a gksu-t használva a jelszó bekérésére"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Rendszergazda terminál"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Megnyitás rendszergazdaként"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "A fáj megnyitása rendszergazdai jogosultságokkal"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+"<big><b>A futtatandó program nem határozható meg.</b></big>\n"
+"\n"
+"A kijelölt elem nem nyitható meg rendszergazdai jogosultságokkal, mivel a "
+"megfelelő alkalmazás nem határozható meg."

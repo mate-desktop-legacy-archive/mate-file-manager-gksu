@@ -1,0 +1,300 @@
+# translation of gksu-lt.po to Lithuanian
+# Lithuanian translation for gksu
+# This file is distributed under the same license as the gksu package.
+#
+# Linas Bukauskas <linas@sig.lt>, 2006
+# Gintautas Miliauskas <gintas@akl.lt>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu-lt\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2006-08-03 13:03+0300\n"
+"Last-Translator: Gintautas Miliauskas <gintas@akl.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu versija %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Naudojimas: %s [-u <naudotojo vardas>] [-k] [-l] <komanda>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    Išvesti ekrane papildomą informaciją, kuri gali būti\n"
+"    naudinga nustatant arba sprendžiant problemas.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <naudotojo vardas>, -u <naudotojo vardas>\n"
+"    Vykdyti <komandą> nurodyto naudotojo teisėmis.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Uždrausti klaviatūros, pelės ir židinio perėmimą,\n"
+"    kurį atlieka programa klausdama slaptažodžio.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Klausti naudotojo, ar jis nori, kad klaviatūros ir pelės\n"
+"    židinys būtų perimtas, prieš tai atliekant.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Išsaugoti aplinkos kintamuosius. Pvz., nekeis\n"
+"    $HOME ir $PATH.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Padaryti šį apvalkalą prisijungimo (login shell). Atsargiai, tai gali\n"
+"    sukelti problemų su Xauthority magija. Įvykdykite „xhost“,\n"
+"    kad taip paleista programa galėtų atverti langus ekrane.\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  -- description <aprašymas|failas>, -D <aprašymas|failas>\n"
+"    Nurodyti aprašomajį pavadinimą komandai, kuris bus\n"
+"    naudojamas pranešime. Taip pat galite nurodyti kelią\n"
+"    iki .desktop failo, tada pavadinimui bus naudojamas\n"
+"    Name laukas.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <žinutė>, -m <žinutė>\n"
+"    Pakeisti standartinę žinutę, rodomą klausiant\n"
+"    slaptažodžio, į argumente nurodytą žinutę.\n"
+"    Naudokite tik jei nepakanka --description argumento.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    Paprašyti, kad gksu išvestų slaptažodį į standartinį išvedimą,\n"
+"    kaip kad ssh-askpass. Naudinga rašant scenarijus programoms,\n"
+"    kurios priima slaptažodį per standartinį įėjimą.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Nurodyti, kad GKSu naudotų „sudo“ vietoj „su“,\n"
+"    tarsi ji būtų paleista kaip „gksudo“.\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Nurodyti, kad GKSu naudotų „su“, užuot naudojusi\n"
+"    libgksu standartinį nustatymą.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr ""
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr ""
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr ""
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr ""
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr ""
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr ""
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr ""
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr ""
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Nenurodyta komanda vykdymui."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "Parinktis nepriimta: --disable-grab: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "Parinktis nepriimta: --prompt: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Ar norėtumėte, kad jūsų ekranas būtų \"perimtas\"\n"
+"slaptažodžio įvedimo metu?</b>\n"
+"\n"
+"Tai reiškia, kad visos programos bus trumpam sustabdytos,\n"
+"todėl piktybiškos programos negalės nuskaityti slaptažodžio."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Trūksta argumentų</b></big>\n"
+"\n"
+"Reikia nurodyti --description arba --message."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Nepavyko užklausti slaptažodžio.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr "Naudotojas %s neegzistuoja."
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Neteisingas slaptažodis.</b>"
+
+#: ../gksu/gksu.c:760
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Nepavyko vykdyti %s naudotojo %s teisėmis:</b>\n"
+"\n"
+" %s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Atveria terminalą 'root' naudotojo teisėmis, naudojant gksu slaptažodžiui "
+"įvesti"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Administratoriaus terminalas"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Atverti administratoriaus teisėmis"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "Atveria failą administratoriaus teisėmis"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+
+#~ msgid "Granting Rights"
+#~ msgstr "Teisių suteikimas"

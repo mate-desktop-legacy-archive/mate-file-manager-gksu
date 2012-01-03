@@ -1,0 +1,290 @@
+# This file is distributed under the same license as the gksu package.
+# Changwoo Ryu <cwryu@debian.org>, 2006, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu 2.0.0\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-03-26 01:56+0900\n"
+"PO-Revision-Date: 2007-03-26 01:56+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: Korean\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu 버전 %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"사용법: %s [-u <사용자>] [옵션] <명령어>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    문제점을 검사하고 해결하는 데 유용한 정보를\n"
+"    화면에 표시합니다.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <사용자>, -u <사용자>\n"
+"    지정한 사용자로 <명령>을 실행합니다.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    열쇠글을 물어볼 때 키보드, 마우스, 포커스를\n"
+"    \"잠그는\" 일을 하지 않습니다.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    키보드와 마우스를 잡을 지 여부를 그 전에 물어봅니다.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    현재 환경을 유지합니다. 예를 들어 $HOME이나 $PATH\n"
+"    환경 변수를 변경하지 않습니다.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    로그인 쉘로 합니다. Xauthority 방식과 문제를\n"
+"    일으킬 수도 있으니 주의하십시오. 해당 사용자로\n"
+"    화면에 창을 띄우게 하려면 xhost를 사용하십시오!\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <설명|파일>, -D <설명|파일>\n"
+"    기본 메세지에서 명령어에 대한 설명으로 사용할\n"
+"    이름을 지정합니다. 여기서 .desktop 파일의 절대\n"
+"    경로를 지정할 수도 있습니다. 그 경우에는 Name\n"
+"    키를 사용합니다.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <메세지>, -m <메세지>\n"
+"    열쇠글을 물어볼 때 나오는 표준 메세지를 옵션의\n"
+"    인자로 바꿉니다. --description 옵션만 가지고는\n"
+"    안 되는 경우에만 사용하십시오.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    ssh-askpass와 마찬가지로 열쇠글을 표준 출력으로\n"
+"    표시합니다. 열쇠글을 표준 입력으로 받는 스크립트\n"
+"    프로그램에서 사용하기 좋습니다.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    su 대신에 sudo를 사용합니다. gksudo를 실행한 것처럼\n"
+"    동작합니다.\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    libgksu의 기본값 대신에 su를 사용합니다. \n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "고급 옵션"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>사용자를 바꿀 때 사용할 옵션</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "로그인 쉘(_L)"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "환경 유지(_P)"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "프로그램 실행"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "실행:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "다음 사용자로:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "고급(_A)"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "실행할 명령어가 없습니다."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "--disable-grab에서 쓸 수 없는 추가 옵션입니다: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "--prompt에서 쓸 수 없는 추가 옵션입니다: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>열쇠글을 입력하는 동안에 화면을 \"고정\"하시겠습니까?\n"
+"\n"
+"모든 프로그램이 일시 정지해서 악의적인 프로그램이\n"
+"열쇠글 입력을 엿듣지 못하게 합니다."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>옵션이나 인자가 없습니다</b></big>\n"
+"\n"
+"--description이나 --message 옵션을 사용해야 합니다."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>열쇠글을 요청하는 데 실패했습니다.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr "%s 사용자가 없습니다."
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>열쇠글이 틀렸습니다... 다시 시도하십시오.</b>"
+
+#: ../gksu/gksu.c:760
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>%2$s 사용자로 %1$s 프로그램을 실행하는 데 실패했습니다.</b>\n"
+"\n"
+"%3$s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr "루트 사용자로 터미널을 열고, GKSU로 열쇠글을 물어봅니다"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "루트 터미널"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "관리자로 열기"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "파일을 관리자 권한으로 엽니다"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+"<big><b>실행할 프로그램을 알 수 없습니다.</b></big>\n"
+"\n"
+"선택한 항목을 관리자 권한으로 열 수 없습니다. 올바른 프로그램을 알 수 없습니"
+"다."

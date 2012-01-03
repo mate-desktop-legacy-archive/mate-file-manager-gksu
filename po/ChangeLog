@@ -1,0 +1,418 @@
+2009-02-03  Gustavo Noronha Silva  <kov@debian.org>
+
+	* th.po:
+	- new Thai translation contributed by
+	  Theppitak Karoonboonyanan <thep@linux.thai.net>
+
+2008-11-22  Gustavo Noronha Silva  <kov@debian.org>
+
+	* fr.po:
+	- French translation fix by Josselin Mouette <joss@debian.org>
+
+2008-05-14  Piarres Beobide <pi@beobide.net>
+
+	* eu.po: 
+	- Updated Basque translation
+
+2007-05-11  Gustavo Noronha Silva  <kov@debian.org>
+
+	* intltool-update
+
+	* gl.po:
+	- adding Galician translation contributed by
+	  Nacho <nacho.resa@gmail.com>
+
+	* zh_CN.po:
+	- adding translation to Simplified Chinese, by
+	  杨章 <zyangmath@gmail.com>
+
+	* pot regenaration, followed by all the pos
+
+2007-03-25  Gustavo Noronha Silva  <kov@debian.org>
+
+	* de.po:
+	- updated by David Ayers <ayers@fsfe.org>
+
+	* ko.po:
+	- updated by Changwoo Ryu <cwryu@debian.org>
+
+	* ar.po:
+	- adding translation to Arabic done by
+	  Khaled Hosny <khaledhosny@eglug.org>
+
+2007-02-04  Gustavo Noronha Silva  <kov@debian.org>
+
+	* ja.po:
+	- adding translation to Japanese done by
+	  Fujiwara
+
+2007-01-02  Gustavo Noronha Silva  <kov@debian.org>
+
+	* update-po
+
+	* ca.po:
+	- translation update by Jordi Mallach <jordi@debian.org>
+
+2006-11-15  Gustavo Noronha Silva  <kov@debian.org>
+
+	* hu.po: Hungarian translation updated by
+	  Gabor Kelemen <kelemeng@mate.hu>
+
+2006-09-20  Gustavo Noronha Silva  <kov@debian.org>
+
+	* fr.po:
+	- translation update by Stéphane RAIMBAULT
+
+2006-09-08  Francisco Javier F. Serrador  <serrador@openshine.com>
+
+	* es.po:
+	- translation update
+
+2006-09-03  Miroslav Kure  <kurem@cloud.cc.net>
+
+	* cs.po:
+	- translation update
+
+2006-09-02  Gustavo Noronha Silva  <kov@debian.org>
+
+	* update-po
+
+	* it.po:
+	- translation update by new Andrea Zagli <azagli@inwind.it>
+
+2006-08-19  Gustavo Noronha Silva  <kov@debian.org>
+
+	* lt.po:
+	- new translation by Gintautas Miliauskas <gintas@akl.lt>
+
+	* update-po
+
+	* pt_BR.po:
+	- translation update
+
+	* es.po:
+	- translation update by Javier Fernández-Sanguino Peña
+	  <jfs@computer.org>
+
+2006-08-15  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pl.po:
+	- translation update by "Wiktor Wandachowicz"
+	  <wiktorw@people.pl>
+
+2006-08-11  Daniel Nylander <po@danielnylander.se>
+
+	* sv.po: Updated Swedish translation.
+
+2006-08-09  Gustavo Noronha Silva  <kov@debian.org>
+
+	* update-po
+
+	* sv.po:
+	- new Swedish translation by Daniel Nylander <yeager@lidkoping.net>
+
+2006-08-06  Gustavo Noronha Silva  <kov@debian.org>
+
+	* update-po
+
+2006-07-23  Gustavo Noronha Silva  <kov@debian.org>
+
+	* ko.po: new translation by Changwoo Ryu <cwryu@debian.org>
+	  addresses Debian bug #379427
+
+2006-07-19  Miroslav Kure  <kurem@debian.cz>
+
+	* cs.po: updated Czech translation
+
+2006-07-17  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po:
+	- translation update
+
+	* update-po
+
+2006-05-02  Miroslav Kure  <kurem@debian.cz>
+
+ 	* cs.po: updated Czech translation
+
+2006-05-01  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po:
+	- updated translation
+
+	* update-po
+
+2006-01-07  Gustavo Noronha Silva  <kov@debian.org>
+
+	* it.po: translated to Italian by
+	  Andrea Zagli <azagli@inwind.it>
+
+2005-11-23  Gustavo Noronha Silva  <kov@debian.org>
+
+	* da.po: translation update by Morten Brix Pedersen
+	  <morten@wtf.dk> (Debian bug #340137)
+
+2005-10-16  Gustavo Noronha Silva  <kov@debian.org>
+
+	* hu.po: translation update by Gabor Kelemen
+	  <kelemeng@mate.hu>
+
+2005-10-09  Gustavo Noronha Silva  <kov@debian.org>
+
+	* es.po:
+	- added translation for Run as different user, by
+	  ricardo@iesdonana.org
+
+2005-09-12  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pl.po:
+	- fixed Content-Type to say UTF-8 as charset
+
+2005-09-10  Miroslav Kure  <kurem@debian.cz>
+
+	* cs.po: updated Czech translation
+
+2005-09-02  Ronald van Engelen  <ronalde@lacocina.nl>
+
+	* nl.po: Dutch translation updated
+
+2005-08-19  Thomas Huriaux  <thomas.huriaux@gmail.com>
+
+	* fr.po: updated translation
+
+2005-08-18  Guilherme de S. Pastore  <gpastore@colband.com.br>
+
+	* de.po: fixed spelling mistake
+
+2005-08-07  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: updated translation
+
+	* update-po!
+
+2005-08-06  Guilherme de S. Pastore  <gpastore@colband.com.br>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation
+
+2005-06-27  Miroslav Kure  <kurem@debian.cz>
+
+	* cs.po:
+	- translation update
+
+2005-06-21  Gustavo Noronha Silva  <kov@debian.org>
+
+	* xh.po:
+	- New XHosa translation, thanks to Canonical Inc.
+
+2005-06-18  Gustavo Noronha Silva  <kov@debian.org>
+
+	* POTFILES.in, Makefile.in.in, *po:
+	- adapted by intltoolize
+	- updated
+
+2005-06-14  Gustavo Noronha Silva  <kov@debian.org>
+
+	* ro.po:
+	- New Romanian translation by Sorin Batariuc <sorin@bonbon.net>
+
+2005-05-27 Piarres Beobide <pi@beobide.net>
+
+	* eu.po: 
+	- New Basque translation by Piarres Beobide pi@beobide.net>
+
+2005-05-16  Gustavo Noronha Silva  <kov@debian.org>
+
+	* ca.po:
+	- translation updated by Jordi Mallach <jordi@sindominio.net>
+
+	* es.po:
+	- translation updated by Javier Fernández-Sanguino Peña 
+	  <jfs@computer.org>
+
+2005-05-14  Gustavo Noronha Silva  <kov@debian.org>
+
+	* sk.po:
+	- translation updated by Peter Chabada <sk-i18n@chabada.sk>
+
+2005-05-13  Miroslav Kure <kurem@debian.cz>
+
+        * cs.po:
+        - added Czech translation
+
+2005-05-12  Gustavo Noronha Silva  <kov@debian.org>
+
+	* fr.po:
+	- fixed missing information
+
+	* nl.po:
+	- fixed some problems with charset not being declared
+	  and one string badly translated
+
+2005-04-27  Gustavo Noronha Silva  <kov@debian.org>
+
+	* hu.po:
+	- new Hungarian translation done by Kelemen Gábor 
+	  <kelemeng@mate.hu>
+
+	* nl.po:
+	- Ronald has done some fixing based on suggestions by
+	  the Dutch translation team
+
+2005-04-25  Gustavo Noronha Silva  <kov@debian.org>
+
+	* no_NB.po -> nb.po:
+	- renamed so I can have some lollypop given to me
+	  by Jordi
+
+2005-04-19  Gustavo Noronha Silva  <kov@debian.org>
+
+	* nl.po:
+	- new translation by Ronald van Engelen <ronalde@lacocina.nl>
+
+2005-03-30  Gustavo Noronha Silva  <kov@debian.org>
+
+	* fr.po:
+	- new translation by Sebastien Bacher <seb128@debian.org>
+
+2005-03-01  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po:
+	- small update
+
+	* ca.po:
+	- translation update by Jordi Mallach <jordi@debian.org>
+	
+	* de.po:
+	- translation update by Thomas Templin <templin@gnuwhv.de>
+
+2005-02-21  Gustavo Noronha Silva  <kov@debian.org>
+
+	* sk.po:
+	- new translation for slovak, thanks to
+	  Peter Chabada <sk-i18n@chabada.sk>
+
+2005-02-07  Gustavo Noronha Silva  <kov@debian.org>
+
+	* da.po:
+	- translation update by Morten Brix Pedersen <morten@wtf.dk>
+
+2005-01-30  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po:
+	- translation update
+	* *po:
+	- update-po
+
+2005-01-25  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt.po:
+	- translation update, thanks to Luis Matos 
+	  <gass@otiliamatos.ath.cx> for the update, and
+	  Guilherme de S. Pastore <gpastore@colband.com.br>
+	  for reviewing.
+
+2004-12-08  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt.po:
+	- provided by Luis Matos <gass@otiliamatos.ath.cx>
+
+2004-10-17  Gustavo Noronha Silva  <kov@debian.org>
+
+	* po/*po:
+	- updated to match the typo fix in the original help
+	  string
+
+2004-10-13  Gustavo Noronha Silva  <kov@alface.horta>
+
+	* no_NB.po: adding translation done by 
+	  Vidar Braut Haarr" <Vidar@CoreTrek.com>
+
+2004-09-07  Gustavo Noronha Silva  <kov@alface.horta>
+
+	* da.po: translation update by
+	  Morten Brix Pedersen <morten@wtf.dk>
+
+	* de.po: translation update by
+	  Sebastian Heinlein <sebastian.heinlein@web.de>.
+
+2004-08-08  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: translation update.
+
+2004-08-07  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: translation update.
+
+	* ca.po: new translation, by Jordi Mallach <jordi@sindominio.net>
+	  (Debian Bug #263305)
+
+2004-06-12  Gustavo Noronha Silva  <kov@debian.org>
+
+	* es.po: translation update by
+	  "Francisco Javier F. Serrador" <serrador@tecknolabs.com>
+
+2004-05-30  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: updated translation
+
+	* da.po: updated by Morten Brix Pedersen <morten@wtf.dk>
+
+2004-03-21  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.14.1.
+	* Rules-quot: Upgrade to gettext-0.14.1.
+
+2004-01-17  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: updated translation.
+
+2004-01-16  Gustavo Noronha Silva  <kov@debian.org>
+
+	* da.po: new translation, thanks to
+	  Morten Brix Pedersen <morten@mbrix.dk>
+
+2003-08-06  Gustavo Noronha Silva  <kov@debian.org>
+
+	* de.po: new translation, thanks to
+	  Sebastian Heinlein <sebastian.heinlein@campus.lmu.de>
+
+2003-07-29  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: minor update
+
+2003-07-24  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: translation update
+
+2003-06-14  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.12.1.
+
+2003-05-06  Gustavo Noronha Silva  <kov@debian.org>
+
+	* es.po: translation add, thanks to
+	  Kike <krm@futurnet.es>
+
+x2003-05-02  Gustavo Noronha Silva  <kov@debian.org>
+
+	* ru.po: translation added, thanks to
+	  Alex Murygin <murygin@aitoc.com>
+
+2003-01-29  Gustavo Noronha Silva  <kov@debian.org>
+
+	* pt_BR.po: translation update.
+
+2002-08-13  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* boldquot.sed: New file, from gettext-0.11.5.
+	* en@boldquot.header: New file, from gettext-0.11.5.
+	* en@quot.header: New file, from gettext-0.11.5.
+	* insert-header.sin: New file, from gettext-0.11.5.
+	* quot.sed: New file, from gettext-0.11.5.
+	* remove-potcdate.sin: New file, from gettext-0.11.5.
+	* Rules-quot: New file, from gettext-0.11.5.
+
+2001-11-04  gettextize  <bug-gnu-utils@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.10.40.
+

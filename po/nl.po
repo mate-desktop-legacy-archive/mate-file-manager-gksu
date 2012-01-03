@@ -1,0 +1,556 @@
+# nl translation for gksu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Ronald van Engelen <ronalde@lacocina.nl>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu 1.2.5\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2006-03-30 00:28+0200\n"
+"Last-Translator: Ronald van Engelen <ronalde@lacocina.nl>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr ""
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Geavanceerde opties"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Opties die gebruikt worden wanneer u van gebruiker wisselt</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "_Login-shell"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "Omgevingsvariabelen _behouden"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Opdracht uitvoeren"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Uitvoeren:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Als gebruiker:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "Ge_avanceerd"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Geen opdracht om uit te voeren."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "Ongeldige optie voor --disable-grab: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "Ongeldige optie voor --prompt: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Wilt u het scherm blokkeren na het invoeren\n"
+"van uw wachtwoord?</b>\n"
+"\n"
+"Wanneer u hiervoor kiest worden alle programma's\n"
+"gepauzeerd. Dit voorkomt dat een schadelijk\n"
+"programma uw wachtwoord kan onderscheppen terwijl \n"
+"u het invoert."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+
+#: ../gksu/gksu.c:637
+#, fuzzy, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr "<b>Voer het wachtoord in van gebruiker %s</b>"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr ""
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr ""
+
+#: ../gksu/gksu.c:760
+#, fuzzy, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"Het uitvoeren van %s als gebruiker %s is mislukt:\n"
+" %s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Start een terminal als de root-gebruiker waarbij gksu gebruikt wordt om het "
+"wachtwoord te vragen."
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Terminal als root"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr ""
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr ""
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+
+#~ msgid ""
+#~ "GKsu version %s\n"
+#~ "\n"
+#~ "Usage: %s [-u <user>] [-k] [-l] <command>\n"
+#~ "\n"
+#~ "  --always-ask-password, -a\n"
+#~ "    Do not try to check if a password is really\n"
+#~ "    needed for running the command, or if there\n"
+#~ "    are other means of obtaining it: simply ask for it.\n"
+#~ "  --debug, -d\n"
+#~ "    Print information on the screen that might be\n"
+#~ "    useful for diagnosing and/or solving problems.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Disable the \"locking\" of the keyboard, mouse,\n"
+#~ "    and focus done by the program when asking for\n"
+#~ "    password.\n"
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Replace the default window icon with the argument.\n"
+#~ "  --message <message>, -m <message>\n"
+#~ "    Replace the standard message shown to ask for\n"
+#~ "    password for the argument passed to the option.\n"
+#~ "  --print-pass, -p\n"
+#~ "    Ask gksu to print the password to stdout, just\n"
+#~ "    like ssh-askpass. Useful to use in scripts with\n"
+#~ "    programs that accept receiving the password on\n"
+#~ "    stdin.\n"
+#~ "  --prompt, -P\n"
+#~ "    Ask the user if they want to have their keyboard\n"
+#~ "    and mouse grabbed before doing so.\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Strip the host part of the $DISPLAY variable, so that\n"
+#~ "    GKSu will work on SSH X11 Forwarding.\n"
+#~ "  --sudo-mode, -S\n"
+#~ "    Make GKSu use sudo instead of su, as if it had been\n"
+#~ "    run as \"gksudo\".\n"
+#~ "  --title <title>, -t <title>\n"
+#~ "    Replace the default title with the argument.\n"
+#~ "  --user <user>, -u <user>\n"
+#~ "    Call <command> as the specified user.\n"
+#~ "\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Preserve the current environments, does not set $HOME\n"
+#~ "    nor $PATH, for example.\n"
+#~ "  --login, -l\n"
+#~ "    Make this a login shell. Beware this may cause\n"
+#~ "    problems with the Xauthority magic. Run xhost\n"
+#~ "    to allow the target user to open windows on your\n"
+#~ "    display!\n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "GKsu versie %s\n"
+#~ "\n"
+#~ "Gebruik: %s [-u <gebruikersnaam>] [-k] [-l] <opdracht>\n"
+#~ "\n"
+#~ "  --always-ask-password, -a\\n\"\n"
+#~ "    Controleer niet of een wachtwoord vereist is \n"
+#~ "    om de opdracht uit te voeren, of dat er andere\n"
+#~ "    manieren zijn om het te achterhalen: vraag altijd\n"
+#~ "    om het wachtwoord.\n"
+#~ "  --debug, -d\n"
+#~ "    Geeft informatie weer die nuttig kan zijn voor de\n"
+#~ "    diagnose en/of de oplossing van problemen.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Schakel de \"blokkering\" door het uitgevoerde \n"
+#~ "    programma van toetsenbord, muis en actief element \n"
+#~ "    uit wanneer er om een wachtwoord gevraagd wordt.\n"
+#~ "  --icon <pictogram>, -i <pictogram>\n"
+#~ "    Vervangt het standaardpictogram door het opgegeven \n"
+#~ "    argument.\n"
+#~ "  --message <bericht>, -m <bericht>\n"
+#~ "    Vervangt het standaardbericht dat weergegeven wordt \n"
+#~ "    om een wachtwoord te vragen voor het argument dat \n"
+#~ "    aan deze optie wordt meegegeven.\n"
+#~ "  --print-pass, -p\n"
+#~ "    Geeft gksu de opdracht om het wachtwoord naar stdout uit te \n"
+#~ "    voeren, zoals bij ssh-askpass. Dit kan gebruikt worden in \n"
+#~ "    scripts van programma's die het wachtwoord uit stdin kunnen \n"
+#~ "    opvragen.\n"
+#~ "  --prompt, -P\n"
+#~ "    Vraagt de gebruiker of toetsenbord en muis geblokkeerd dienen\n"
+#~ "    te worden alvorens dit te doen.\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Haalt het host-gedeelte uit de $DISPLAY-variabele, zodat GKSu \n"
+#~ "    werkt met SSH X11-forwarding.\n"
+#~ "  --sudo-mode, -S\n"
+#~ "    Zorgt ervoor dat GKsu het programma sudo gebruikt in plaats van\n"
+#~ "    su, alsof het gestart is als het programma \"gksudo\".\n"
+#~ "  --title <titel>, -t <titel>\n"
+#~ "    Vervangt de standaardtitel door het opgegeven argument.\n"
+#~ "  --user <gebruikersnaam>, -u <gebruikersnaam>\n"
+#~ "    Voert <opdracht> uit als de opgegeven gebruiker.\n"
+#~ "  --preserv-env, -k\n"
+#~ "    Behoudt de huidige omgevingsvariabelen, zodat bijvoorbeeld de\n"
+#~ "    $HOME- en $PATH-variabelen niet ingevuld worden.\n"
+#~ "  --login, -l\n"
+#~ "    Maakt een login-shell. \n"
+#~ "    Let op: dit kan problemen opleveren met het Xauthority-systeem. \n"
+#~ "    Start xhost om de doelgebruiker toe te staan om vensters op \n"
+#~ "    uw X11-display te openen.\n"
+#~ "\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Could not grab your mouse.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "Kan uw muis niet blokkeren.\n"
+#~ "Het kan zijn dat een schadelijk programma\n"
+#~ "uw sessie afluistert."
+
+#~ msgid ""
+#~ "Could not grab your keyboard.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "Kan uw toetsenbord niet blokkeren.\n"
+#~ "Het kan zijn dat een schadelijk programma\n"
+#~ "uw sessie afluistert."
+
+#~ msgid "Not using locking for read only lock file %s"
+#~ msgstr ""
+#~ "Het vergrendelbestand %s wordt niet vergrendeld omdat \n"
+#~ "het een alleen-lezen bestand is"
+
+#~ msgid "Not using locking for nfs mounted lock file %s"
+#~ msgstr ""
+#~ "Het lock-bestand %s wordt niet op slot gezet omdat \n"
+#~ "het op een NFS-volume staat"
+
+#~ msgid ""
+#~ "<b>Please enter your password\n"
+#~ "to run %s as user %s</b>"
+#~ msgstr ""
+#~ "<b>Voer uw wachtwoord in om\n"
+#~ "%s uit te voeren als gebruiker %s</b>"
+
+#~ msgid "<b>To run the program \"%s\" you need to enter the %s password</b>"
+#~ msgstr ""
+#~ "<b>Voor het uitvoeren van het programma \"%s\" is het wachtwoord van %s "
+#~ "vereist</b>"
+
+#~ msgid ""
+#~ "<b>The \"%s\" program was started with the privileges of the %s user "
+#~ "without the need to ask for a password, due to your system's "
+#~ "authentication mechanism setup.</b>\n"
+#~ "\n"
+#~ "It is possible that you are being allowed to run specific programs as "
+#~ "user %s without the need for a password, or that the password is cached.\n"
+#~ "This is not a problem report; it's simply a notification to make sure you "
+#~ "are aware of this."
+#~ msgstr ""
+#~ "<b>Het programma \"%s\" werd uitgevoerd met de privileges van gebruiker %"
+#~ "s. Als gevolg van de authenticatie-instellingen van uw systeem werd er "
+#~ "niet om een wachtwoord gevraagd.</b>\n"
+#~ "\n"
+#~ "Mogelijk is het toegestaan om specifieke programma's uit te voeren als "
+#~ "gebruiker %s zonder de noodzaak van een wachtwoord of dat het wachtwoord "
+#~ "tijdelijk is opgeslagen.\n"
+#~ "Dit is geen probleemmelding; het is slechts bedoeld om u hiervan op de "
+#~ "hoogte te stellen."
+
+#~ msgid "Do _not display this message again"
+#~ msgstr "Laat deze melding _niet meer zien"
+
+#~ msgid "Option not accepted for --sudo-mode: %s\n"
+#~ msgstr "Ongeldige optie voor --sudo-mode: %s\n"
+
+#~ msgid "Remember password for this session"
+#~ msgstr "Wachtwoord opslaan voor deze sessie"
+
+#~ msgid "Save password in the keyring"
+#~ msgstr "Wachtwoord opslaan in sleutelbos"
+
+#~ msgid "Unable to run %s/bin/gksu: %s"
+#~ msgstr "Kan %s/bin/gksu niet uitvoeren: %s"
+
+#~ msgid "Always request a password"
+#~ msgstr "Altijd om een wachtwoord vragen"
+
+#~ msgid "Disable keyboard and mouse grab"
+#~ msgstr "Blokkering van toetsenbord en muis uitzetten"
+
+#~ msgid "Display information message when no password is needed"
+#~ msgstr "Informatief bericht weergeven als er geen wachtwoord vereist is"
+
+#~ msgid "Force keyboard and mouse grab"
+#~ msgstr "Blokkering van toetsenbord en muis forceren"
+
+#~ msgid ""
+#~ "Grab keyboard and mouse even if -g has been passed as argument on the "
+#~ "command line."
+#~ msgstr ""
+#~ "Toetsenbord en muis blokkeren zelfs wanneer het argument -g opgegegeven "
+#~ "is."
+
+#~ msgid "Keyring to which passwords will be saved"
+#~ msgstr "Sleutelbos waarin de wachtwoorden zullen worden opgeslagen"
+
+#~ msgid "Prompt for grabbing"
+#~ msgstr "Vragen om bevestiging van blokkering"
+
+#~ msgid "Save password to mate-keyring"
+#~ msgstr "Wachtwoord opslaan in de mate-sleutelbos"
+
+#~ msgid "Sudo mode"
+#~ msgstr "Sudo-modus"
+
+#~ msgid ""
+#~ "The name of the keyring gksu should use. Usual values are \"session\", "
+#~ "which saves the password for the session, and \"default\", which saves "
+#~ "the password with no timeout."
+#~ msgstr ""
+#~ "De naam van de sleutelbos die gksu dient te gebruiken. Veel gebruikte "
+#~ "namen zijn \"session\", waarbij het wachtwoord in de sessie wordt "
+#~ "opgeslagen en \"default\" waarbij het wachtwoord permanent wordt "
+#~ "opgeslagen."
+
+#~ msgid ""
+#~ "This option determines whether a message dialog will be displayed "
+#~ "informing the user that the program is being run without the need of a "
+#~ "password being asked for some reason."
+#~ msgstr ""
+#~ "Hiermee bepaalt u of een melding wordt weergegeven die de gebruiker "
+#~ "informeert dat het programma uitgevoerd wordt zonder dat er om een "
+#~ "wachtwoord gervraagd wordt."
+
+#~ msgid ""
+#~ "This option will make gksu prompt the user if he wants to have the screen "
+#~ "grabbed before entering the password. Notice that this only has an effect "
+#~ "if force-grab is disabled."
+#~ msgstr ""
+#~ "Hiermee bepaalt u dat gksu de gebruiker vraagt of het scherm geblokkeerd "
+#~ "dient te worden voordat het wachtwoord ingevoerd wordt. Merk op dat dit "
+#~ "alleen werkt wanneer de optie force-grab uitgeschakeld is."
+
+#~ msgid ""
+#~ "This option will prevent gksu from trying to figure out if a password is "
+#~ "needed to run the command, or if it can be obtained through other ways, "
+#~ "such as mate-keyring, making it simply ask for the password every time."
+#~ msgstr ""
+#~ "Deze optie voorkomt dat gksu probeert te achterhalen of er een wachtwoord "
+#~ "vereist is om de opdracht uit te voeren of dat het wachtwoord op een "
+#~ "andere manier achterhaald kan worden, bijvoorbeeld via de mate-"
+#~ "sleutelbos. Hierdoor wordt er altijd om een wachtwoord gevraagd."
+
+#~ msgid ""
+#~ "Whether sudo should be the default backend method. This method is "
+#~ "otherwise accessed though the -S switch or by running 'gksudo' instead of "
+#~ "'gksu'."
+#~ msgstr ""
+#~ "Hiermee wordt bepaald of sudo de standaard methode is. Deze methode wordt "
+#~ "normaal gesproken ingesteld met het -S-argument of door 'gksudo' te "
+#~ "starten in plaats van 'gksu'."
+
+#~ msgid ""
+#~ "Whether the keyboard and mouse grabbing should be turned off. This will "
+#~ "make it possible for other X applications to listen to keyboard input "
+#~ "events, thus making it not possible to shield from malicious applications "
+#~ "which may be running."
+#~ msgstr ""
+#~ "Hiermee wordt bepaald of het blokkeren van toetsenbord en muis "
+#~ "uitgeschakeld dient te worden. Op die manier is het mogelijk dat andere X-"
+#~ "toepassingen de toetsenbord-invoer onderscheppen; het is dan onmogelijk "
+#~ "om bescherming te bieden tegen schadelijke programma's. "
+
+#~ msgid ""
+#~ "gksu can save the password you type to the mate-keyring so you'll not be "
+#~ "asked everytime"
+#~ msgstr ""
+#~ "gksu kan het wachtwoord opslaan in de mate-sleutelbos zodat het niet "
+#~ "telkens opnieuw gevraagd wordt"
+
+#~ msgid ""
+#~ "Opens a dialog where you can type a command to be run as a given user"
+#~ msgstr ""
+#~ "Geeft een dialoogvenster weer waarin u een programma als een bepaalde "
+#~ "gebruiker kunt starten"
+
+#~ msgid "Run as different user"
+#~ msgstr "Uitvoeren als een andere gebruiker"
+
+#~ msgid "WARNING: Could not stat %s: %s.\n"
+#~ msgstr "WAARSCHUWING: kan status van %s niet opvragen: %s.\n"
+
+#~ msgid "FATAL: File %s is not owned by root.\n"
+#~ msgstr ""
+#~ "ERNSTIGE FOUT: de gebruiker 'root' is geen eigenaar van het bestand %s.\n"
+
+#~ msgid "FATAL: File %s is not owned by group root.\n"
+#~ msgstr ""
+#~ "ERNSTIGE FOUT: de groep 'root' is geen eigenaar van het bestand %s.\n"
+
+#~ msgid "FATAL: File %s has wrong permissions, should be 0644.\n"
+#~ msgstr ""
+#~ "ERNSTIGE FOUT: het bestand %s heeft verkeerde rechten; het moet zijn "
+#~ "0644.\n"
+
+#~ msgid "FATAL: Could not open %s: %s.\n"
+#~ msgstr "ERNSTIGE FOUT: kon het bestand %s niet openen: %s.\n"
+
+#~ msgid ""
+#~ "<b>Please enter %s's password\n"
+#~ "to run %s.</b>"
+#~ msgstr ""
+#~ "<b>Voer het wachtwoord van gebruiker %s in\n"
+#~ "om de opdracht %s uit te voeren.</b>"

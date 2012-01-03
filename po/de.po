@@ -1,0 +1,450 @@
+# translation of de.po to Deutsch
+# German translation of GKsu.
+# Copyright (C) 2003, 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GKsu package.
+# Sebastian Heinlein <sebastian.heinlein@web.de>, 2003,2004.
+# Thomas Templin <templin@gnuwhv.de>, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-19 16:11-0300\n"
+"PO-Revision-Date: 2007-03-18 14:23+0100\n"
+"Last-Translator: David Ayers <ayers@fsfe.org>\n"
+"Language-Team: German <mate-de@mate.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu Version %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Aufruf: %s [-u <Benutzer>] [Option] <Befehl>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    Drucke Informationen auf den Bildschirm, die\n"
+"    nützlich zur Diagnose/Behebung von problemen\n"
+"    dienlich sein können.\n"
+
+#: ../gksu/gksu.c:79
+#: ../gksu/gksu.c:82
+#: ../gksu/gksu.c:98
+#: ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr ""
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <Benutzer>, -u <Benutzer>\n"
+"    Rufe <Befehl> als angegebener Benutzer auf.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Deaktiviert das \"Sperren\" von Tastatur, Maus,\n"
+"    und Fokus durch das Programm während der\n"
+"    Passwort-Abfrage.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Den Benutzer fragen ob dessen Tastatur und Maus\n"
+"    übernommen werden sollen bevor dies geschieht.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Erhalte die aktuelle Umgebung indem z.B. $HOME\n"
+"    und $PATH nicht gesetzt werden.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Aus der shell eine login shell machen. Vorsicht\n"
+"    dies kann zu Problemen mit der Xauthority Verwaltung\n"
+"    führen. Führe xhost aus um dem Ziel Benutzer das öffnen\n"
+"    von Fenstern auf dem aktuellen Display zu erlauben!\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <Beschreibung|Datei>, -D <Beschreibung|Datei>\n"
+"    Ein beschreibenden Namen für das Kommando\n"
+"    für die Vorgabe-Meldung angeben, um sie prägnanter\n"
+"    zu machen.  Alternativ kann ein absoluter Pfad zu einer\n"
+"    .desktop Datei angegeben werden. Der Schlüssel 'Name'\n"
+"    wird in diesem Fall verwendet werden.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <Nachricht>, -m <Nachricht>\n"
+"    Ersetze die Standard-Nachricht zur Passwort-Abfrage \n"
+"    mit dem Argument dieser Option.\n"
+"    Dies sollte nur verwendet werden wenn --description nicht\n"
+"    ausreicht.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    Gebe das Passwort auf stdout aus, wie\n"
+"    ssh-askpass es tut. Nützlich für Skripte mit\n"
+"    Programmen die das Passwort über stdin\n"
+"    erwarten.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Verwende sudo statt su, als ob es mit\n"
+"    \"gksudo\" gestartet wurde.\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --su-mode, -w\n"
+"    Verwende su, statt die Voreinstellung von\n"
+"    libgksu.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Erweiterte Einstellungen"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Optionen für den Benutzerwechsel</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "Als _Login-Shell starten"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "_Umgebungsvariablen erhalten"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Programm ausführen"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Führe aus:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Als Benutzer:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "_Erweitert"
+
+#: ../gksu/gksu.c:442
+#: ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Es wurde kein auszuführender Befehl angegeben."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "Option wird für --disable-grab nicht akzeptiert: %s \n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "Option wird für --prompt nicht akzeptiert: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Möchten sie ihre Anzeige \"sperren\",\n"
+"wenn sie das Passwort eingeben?</b>\n"
+"\n"
+"Dadurch werden alle laufenden Anwendungen angehalten\n"
+"um ein \"Abhören\" ihrer Passworteingabe durch eine\n"
+"möglicherweise böswillige Anwendung zu verhindern."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Fehlende Optionen oder Argumente</b></big>\n"
+"\n"
+"Es muss entweder --description oder --message angegeben werden."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Kein Passwort abgefragt.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:693
+#, c-format
+msgid "User %s does not exist."
+msgstr "Benutzer %s existiert nicht."
+
+#: ../gksu/gksu.c:713
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Fehlerhaftes Passwort... noch einmal probieren.</b>"
+
+#: ../gksu/gksu.c:742
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b> %s konnte nicht als Anwender %s ausgeführt werden:</b>\n"
+" \n"
+" %s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr "Öffnet ein Terminal als Benutzer 'root' unter Verwendung von gksu zur Passwortabfrage"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr ""
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Öffne als Administrator"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "Öffnet die Datei mit Administratoren-Rechte"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the correct application cannot be determined."
+msgstr ""
+"<big><b>Konnte Programm zum Ausführen nicht ermitteln.</b></big>\n"
+"\n"
+"Der selektierte Eintrag kann nicht mir Administratoren-Rechte geöffnet werden da die entsprechende Applikation nicht ermittelt werden konnte."
+
+#, fuzzy
+#~ msgid ""
+#~ "GKsu version %s\n"
+#~ "\n"
+#~ "Usage: %s [-u <user>] [-k] [-l] <command>\n"
+#~ "\n"
+#~ "  --always-ask-password, -a\n"
+#~ "    Do not try to check if a password is really\n"
+#~ "    needed for running the command, or if there\n"
+#~ "    are other means of obtaining it: simply ask for it.\n"
+#~ "  --debug, -d\n"
+#~ "    Print information on the screen that might be\n"
+#~ "    useful for diagnosing and/or solving problems.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Disable the \"locking\" of the keyboard, mouse,\n"
+#~ "    and focus done by the program when asking for\n"
+#~ "    password.\n"
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Replace the default window icon with the argument.\n"
+#~ "  --message <message>, -m <message>\n"
+#~ "    Replace the standard message shown to ask for\n"
+#~ "    password for the argument passed to the option.\n"
+#~ "  --print-pass, -p\n"
+#~ "    Ask gksu to print the password to stdout, just\n"
+#~ "    like ssh-askpass. Useful to use in scripts with\n"
+#~ "    programs that accept receiving the password on\n"
+#~ "    stdin.\n"
+#~ "  --prompt, -P\n"
+#~ "    Ask the user if they want to have their keyboard\n"
+#~ "    and mouse grabbed before doing so.\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Strip the host part of the $DISPLAY variable, so that\n"
+#~ "    GKSu will work on SSH X11 Forwarding.\n"
+#~ "  --sudo-mode, -S\n"
+#~ "    Make GKSu use sudo instead of su, as if it had been\n"
+#~ "    run as \"gksudo\".\n"
+#~ "  --title <title>, -t <title>\n"
+#~ "    Replace the default title with the argument.\n"
+#~ "  --user <user>, -u <user>\n"
+#~ "    Call <command> as the specified user.\n"
+#~ "\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Preserve the current environments, does not set $HOME\n"
+#~ "    nor $PATH, for example.\n"
+#~ "  --login, -l\n"
+#~ "    Make this a login shell. Beware this may cause\n"
+#~ "    problems with the Xauthority magic. Run xhost\n"
+#~ "    to allow the target user to open windows on your\n"
+#~ "    display!\n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "GKsu Version %s\n"
+#~ "\n"
+#~ "Anwendung: %s [-u <user>] [-k] [-l] <command>\n"
+#~ "\n"
+#~ "  --debug, -d\n"
+#~ "    Informationen auf dem Bildschirm ausgeben die für eine\n"
+#~ "    Diagnose hilfreich sind und/oder helfen Probleme zu lösen.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Verhindere das sperren der Tastatur, der Maus,\n"
+#~ "    und Fokus des Programmes bei der Passwort\n"
+#~ "    abfrage.\n"
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Ersetze das vorgegebene window icon mit dem Argument.\n"
+#~ "  --message <message>, -m <message>\n"
+#~ "    Ersetze die angezeigte standard Meldung der Passwort \n"
+#~ "    Abfrage mit dem Argument der Option <message>.\n"
+#~ "  --print-pass, -p\n"
+#~ "    Das Passwort auf stdout ausgeben, so wie\n"
+#~ "    ssh-askpass. Nützlich bei der Verwendung in\n"
+#~ "    Skripten mit Programmen die das Passwort auf\n"
+#~ "    stdin erwarten.\n"
+#~ "  --prompt, -P\n"
+#~ "    Den Benutzer vorab fragen ob Tastatur und\n"
+#~ "    Maus für alle anderen Anwendungen gesperrt werden sollen.\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Entferne den host Teil der $DISPLAY Variablen, damit\n"
+#~ "    GKSu bei einem SSH X11 Forwarding funktioniert.\n"
+#~ "  --sudo-mode, -S\n"
+#~ "    GKSu soll sudo anstatt su verwenden, als wäre es\n"
+#~ "    \"gksudo\".\n"
+#~ "  --title <title>, -t <title>\n"
+#~ "    Ersetze den vorgegebenen Titel mit dem Argument\n"
+#~ "    <title>\n"
+#~ "  --user <user>, -u <user>\n"
+#~ "    Starte <command> als der angegebene Benutzer.\n"
+#~ "\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Erhalte die aktuellen Umgebungs Variablen, so wird\n"
+#~ "    z.B. weder $HOME noch $PATH neu gesetzt.\n"
+#~ "  --login, -l\n"
+#~ "    Sei eine login shell.\n"
+#~ "    Vorsicht, dies kann Probleme mit Xauthority magic\n"
+#~ "    ergeben. Der Benutzer <user> kann mit xhost\n"
+#~ "    so Fenster auf ihrer Anzeige öffnen!\n"
+#~ "\n"
+#~ "\n"
+#~ msgid ""
+#~ "Could not grab your mouse.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "Die Maus konnte nicht gesperrt werden.\n"
+#~ "Es besteht die Möglichkeit, dass ein böswilliger Client die Sitzung "
+#~ "belauscht. "
+#~ msgid ""
+#~ "Could not grab your keyboard.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "Die Tastatur konnte nicht gesperrt werden.\n"
+#~ "Es besteht die Möglichkeit, dass ein böswilliger Client die Sitzung "
+#~ "belauscht."
+#~ msgid ""
+#~ "<b>Please enter your password\n"
+#~ "to run %s as user %s</b>"
+#~ msgstr ""
+#~ "<b>Bitte geben Sie Ihr Passwort ein, um\n"
+#~ "%s als Benutzer %s auszuführen.</b>"
+#~ msgid "Option not accepted for --sudo-mode: %s\n"
+#~ msgstr "Option wird für --sudo-mode nicht akzeptiert: %s\n"
+#~ msgid "Unable to run %s/bin/gksu: %s"
+#~ msgstr "%s/bin/gksu konnte nicht ausgeführt werden: %s"
+#~ msgid ""
+#~ "Opens a dialog where you can type a command to be run as a given user"
+#~ msgstr "Anwendung als anderer Benutzer ausführen"
+#~ msgid "FATAL: File %s is not owned by root.\n"
+#~ msgstr "FATAL: Datei %s ist nicht im Besitz von root.\n"
+#~ msgid "FATAL: File %s is not owned by group root.\n"
+#~ msgstr "FATAL: Datei %s ist nicht im Besitz der Gruppe root.\n"
+#~ msgid "FATAL: File %s has wrong permissions, should be 0644.\n"
+#~ msgstr "FATAL: Datei %s hat falsche Rechte, es sollte 0644 sein.\n"
+#~ msgid "FATAL: Could not open %s: %s.\n"
+#~ msgstr "FATAL: Kann %s: %s nicht öffnen.\n"
+#~ msgid ""
+#~ "<b>Please enter %s's password\n"
+#~ "to run %s.</b>"
+#~ msgstr ""
+#~ "<b>Bitte geben Sie das Passwort von %s ein,\n"
+#~ "um %s auszuführen.</b>"
+

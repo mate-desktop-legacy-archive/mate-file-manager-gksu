@@ -1,0 +1,357 @@
+# Xhosa translation of gksu
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the gksu package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2005-03-31 13:58+0200\n"
+"Last-Translator: Canonical Ltd <translations@canonical.com>\n"
+"Language-Team: Xhosa <xh-translate@ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr ""
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Indlela yonxulumaniso ekunokukhethwa kuyo"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Indlela ekunokukhethwa kuzo xa kutshintswa umsebenzisi</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "itoliki yemiyalelo yoku_ngena"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "_khusela ubume"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Qhuba inkqubo"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Qhuba:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Njongomsebenzisi:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "_Eyandisiweyo"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Ukuphumeza umyalelo wolahleko."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr ""
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr ""
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+
+#: ../gksu/gksu.c:637
+#, fuzzy, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr "<b>Nceda faka i-password ka %s</b>"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr ""
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr ""
+
+#: ../gksu/gksu.c:760
+#, fuzzy, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"Ayiphumelelanga ukusebenzisa %s njengomsebenzisi %s:\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr ""
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr ""
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr ""
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+
+#~ msgid ""
+#~ "Could not grab your mouse.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "Ayikwazanga ukubamba imawusi yakho.\n"
+#~ "I-client enenkohlakalo kungenzeka ukuba imamele\n"
+#~ "iseshoni yakho."
+
+#~ msgid ""
+#~ "Could not grab your keyboard.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "Ayikwazanga ukubamba i-keyboard yakho.\n"
+#~ "I-client enenkohlakalo kungenzeka ukuba imamele\n"
+#~ "iseshoni yakho."
+
+#~ msgid ""
+#~ "<b>Please enter your password\n"
+#~ "to run %s as user %s</b>"
+#~ msgstr ""
+#~ "<b>Nceda faka i-password\n"
+#~ "yakho ukuze usebenzise %s njengomsebenzisi %s</b>"
+
+#~ msgid "Unable to run %s/bin/gksu: %s"
+#~ msgstr "Ayikwazi ukusebenzisa %s/bin/gksu: %s"
+
+#~ msgid ""
+#~ "GKsu version %s\n"
+#~ "\n"
+#~ "Usage: %s [-u <user>] [-k] [-l] <command>\n"
+#~ "\n"
+#~ "  --user <user>, -u <user>\n"
+#~ "    Calls <command> as the specified user\n"
+#~ "  --message <message>, -m <message>\n"
+#~ "    Replaces the standard message shown to ask for\n"
+#~ "    password for the argument passed to the option\n"
+#~ "  --title <title>, -t <title>\n"
+#~ "    Replaces the default title with the argument\n"
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Replaces the default window icon with the argument\n"
+#~ "  --print-pass, -p\n"
+#~ "    Asks gksu to print the password to stdout, just\n"
+#~ "    like ssh-askpass. Useful to use in scripts with\n"
+#~ "    programs that accept receiving the password on\n"
+#~ "    stdin.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Disables the \"locking\" of the keyboard, mouse,\n"
+#~ "    and focus done by the program when asking for\n"
+#~ "    password\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Strip the host part of the $DISPLAY variable, so that\n"
+#~ "    GKSu will work on SSH X11 Forwarding.\n"
+#~ "\n"
+#~ "  --login, -l\n"
+#~ "    Makes this a login shell. Beware this may cause\n"
+#~ "    problems with the Xauthority magic. Run xhost\n"
+#~ "    to allow the target user to open windows on your\n"
+#~ "    display!\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Preserve the current environments, does not set $HOME\n"
+#~ "    nor $PATH, for example.\n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Uhlobo lwe-GKsu %s\n"
+#~ "\n"
+#~ "Usetyenziso:%s [-u <umsebenzisi>] [-k] [-l] < umyalelo>\n"
+#~ "\n"
+#~ "  --user <umsebenzisi>, -u <umsebenzisi>\n"
+#~ "    Unxulumano <umyalelo> njengomsebenzisi ochaziweyo\n"
+#~ "  --message <umyalezo>, -m <umyalezo>\n"
+#~ "    Ibekwa endaweni yomyalezo wesiqhelo ovezwa xa kubuzwa nge\n"
+#~ "    i-password yeziphumezi-miyalelo eqithiselwe kwezikhethiswayo\n"
+#~ "  --title <isihloko>, -t <isihloko>\n"
+#~ "    Ibekwa endaweni yesihloko esibekiweyo ngesiphumezi-miyalelo\n"
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Ibekwa endaweni yesihloko yesiphawuli sefestile ngesiphumezi-"
+#~ "miyalelo\n"
+#~ "  --print-pass, -p\n"
+#~ "    Ifuna i-gksu ishicilele i-password ku stdout,nje\n"
+#~ "    njenge ssh-askpass. Iyanceda xa isetyenziswa kwiskripti ne\n"
+#~ "    iinkqubo ezivumayo ukuthatha le-password kwi\n"
+#~ "    stdin.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Yenza ingasebenzi i \"locking\" yr-keyboard, mawusi,\n"
+#~ "    ne-focus eyenziwe yinkqubo xa ibifuna\n"
+#~ "    i-password\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Hlubula indawo yomququzeleli yengxube-vange ye-$DISPLAY, ukuze\n"
+#~ "    i-GKSu isebenze kugqithiso lwe-SSH X11.\n"
+#~ "\n"
+#~ "  --login, -l\n"
+#~ "    Yenza lento ibeyitoliki yemiyalelo. Lumka ingenza\n"
+#~ "    ingxaki nommangaliso we-Xauthority. Sebenzisa i-xhost\n"
+#~ "    ukwenzela ukuba umsebenzisi target avule ifestile kwesakho\n"
+#~ "    iskrini!\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Khusela ubume bangoku, abumiseli $HOME\n"
+#~ "    okanye $PATH, njengomzekelo.\n"
+#~ "\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "<b>Please enter your password\n"
+#~ "to run %s</b>"
+#~ msgstr ""
+#~ "<b>Nceda faka i-password\n"
+#~ "yakho ukuze usebenzise u %s</b>"
+
+#~ msgid ""
+#~ "<b>Please enter %s's password\n"
+#~ "to run %s.</b>"
+#~ msgstr ""
+#~ "<b>Nceda faka i-password\n"
+#~ "ka %s ukuze usebenzise %s.</b>"

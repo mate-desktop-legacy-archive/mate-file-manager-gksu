@@ -1,0 +1,505 @@
+# Czech translation of gksu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Miroslav Kure <kurem@debian.cz>, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2006-09-03 10:56+0200\n"
+"Last-Translator: Miroslav Kure <kurem@debian.cz>\n"
+"Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu verze %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Použití: %s [-u <uživatel>] [volby] <příkaz>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    Zobrazí informace užitečné pro diagnostikování\n"
+"    nebo řešení problémů.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <uživatel>, -u <uživatel>\n"
+"    Spustí <příkaz> pod zadaným uživatelem.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Zakáže \"zamykání\" klávesnice a myši, které\n"
+"    program používá při zadávání hesla.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Před zachycením myši a klávesnice se uživatele\n"
+"    zeptá, zda tomu tak chce.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Zachová stávající prostředí, například nenastavuje\n"
+"    proměnné $HOME a $PATH.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Chová se jako přihlašovací shell. Pozor, může způsobit\n"
+"    problémy s magií okolo Xauthority. Chcete-li\n"
+"    povolit cílovému uživateli otevírat okna na vašem\n"
+"    displeji, použijte xhost!\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <popis|soubor>, -D <popis|soubor>\n"
+"    Určí popis příkazu, který se zobrazí ve výchozí\n"
+"    hlášce a učiní ji tak přívětivější.\n"
+"    Také můžete zadat absolutní cestu k souboru\n"
+"    .desktop. V takovém případě se pro popis použije\n"
+"    klíč Name.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <zpráva>, -m <zpráva>\n"
+"    Nahradí standardní zprávu žádající o zadání\n"
+"    hesla za zadaný text.\n"
+"    Používejte pouze pokud --description nepostačuje.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    Požádá gksu o vytištění hesla na standardní výstup\n"
+"    stejně, jako to dělá ssh-askpass. Užitečné pro použití\n"
+"    ve skriptech s programy, jež očekávají heslo\n"
+"    na standardním vstupu.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Řekne GKSu, aby místo su použil sudo, stejně jako\n"
+"    by byl spuštěn příkazem \"gksudo\".\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --su-mode, -w\n"
+"    Řekne GKSu, aby místo výchozího nastavení libgksu\n"
+"    použil su.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Rozšířené možnosti"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Možnosti při změně uživatele</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "přihlašovací she_ll"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "zachovat _prostředí"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Spustit program"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Spustit:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Pod uživatelem:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "Pokročilé"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Chybí příkaz pro spuštění."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "Volba pro --disable-grab nebyla přijata: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "Volba pro --prompt nebyla přijata: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Chcete svou obrazovku při zadávání\n"
+"hesla \"zachytit\"?</b>\n"
+"\n"
+"To znamená, že se všechny aplikace pozastaví,\n"
+"abychom tak při zadávání hesla předešli jeho\n"
+"odposlechnutí zlomyslnou aplikací."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Chybějící volby nebo argumenty</b></big>\n"
+"\n"
+"Musíte zadat --description nebo --message."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Selhalo vyžádání hesla.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr "Uživatel %s neexistuje."
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Chybné heslo... zkuste to znovu.</b>"
+
+#: ../gksu/gksu.c:760
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Selhalo spuštění %s pod uživatelem %s.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr "Otevře terminál pod uživatelem root, na heslo se dotáže přes gksu"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Terminál uživatele root"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Otevřít jako správce"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "Otevře soubor se správcovskými oprávněními"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+"<big><b>Nemohu určit program, který se má spustit.</b></big>\n"
+"\n"
+"Nemohu spustit zvolenou položku s administrátorskými oprávněními, protože "
+"nemohu určit aplikaci, pomocí které se má položka otevřít."
+
+#~ msgid "Granting Rights"
+#~ msgstr "Přidělení oprávnění"
+
+#~ msgid ""
+#~ "  --always-ask-password, -a\n"
+#~ "    Do not try to check if a password is really\n"
+#~ "    needed for running the command, or if there\n"
+#~ "    are other means of obtaining it: simply ask for it.\n"
+#~ msgstr ""
+#~ "  --always-ask-password, -a\n"
+#~ "    Nebude kontrolovat, zda je pro spuštění příkazu\n"
+#~ "    opravdu nutné heslo, nebo zda existují jiné cesty\n"
+#~ "    k jeho získání: jednoduše se vždy na heslo zeptá.\n"
+
+#~ msgid ""
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Replace the default window icon with the argument.\n"
+#~ msgstr ""
+#~ "  --icon <ikona>, -i <ikona>\n"
+#~ "    Nahradí standardní ikonu okna za zadanou.\n"
+
+#~ msgid ""
+#~ "  --ssh-fwd, -s\n"
+#~ "    Strip the host part of the $DISPLAY variable, so that\n"
+#~ "    GKSu will work on SSH X11 Forwarding.\n"
+#~ msgstr ""
+#~ "  --ssh-fwd, -s\n"
+#~ "    Ořízne jméno počítače v proměnné $DISPLAY tak,\n"
+#~ "    aby mohlo GKSu pracovat se SSH X11 Forwarding.\n"
+
+#~ msgid ""
+#~ "  --title <title>, -t <title>\n"
+#~ "    Replace the default title with the argument.\n"
+#~ msgstr ""
+#~ "  --title <titulek>, -t <titulek>\n"
+#~ "    Nahradí výchozí titulek zadaným textem.\n"
+
+#~ msgid ""
+#~ "  --desktop <file>, -D <file>\n"
+#~ "    Use a .desktop file to get the name of the application\n"
+#~ "    and the icon from.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "  --desktop <soubor>, -D <soubor>\n"
+#~ "    Ikonu a jméno aplikace získá ze souboru .desktop.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "<b>Please enter your password\n"
+#~ "to run %s as user %s</b>"
+#~ msgstr ""
+#~ "<b>Zadejte prosím své heslo\n"
+#~ "pro spuštění %s pod uživatelem %s</b>"
+
+#~ msgid "<b>To run the program \"%s\" you need to enter the %s password</b>"
+#~ msgstr "<b>Pro spuštění programu \"%s\" musíte zadat heslo uživatele %s</b>"
+
+#~ msgid "Do _not display this message again"
+#~ msgstr "Tuto hlášku již příště _nezobrazovat"
+
+#~ msgid ""
+#~ "<b>Authentication required</b>\n"
+#~ "\n"
+#~ "You need your password to run:\n"
+#~ "\"%s\"."
+#~ msgstr ""
+#~ "<b>Vyžadována autentizace</b>\n"
+#~ "\n"
+#~ "Musíte zadat heslo pro spuštění:\n"
+#~ "\"%s\"."
+
+#~ msgid ""
+#~ "<b>Authentication required</b>\n"
+#~ "\n"
+#~ "You need to type %s's password to run:\n"
+#~ "\"%s\"."
+#~ msgstr ""
+#~ "<b>Vyžadována autentizace</b>\n"
+#~ "\n"
+#~ "Musíte zadate heslo uživatele %s pro spuštění:\n"
+#~ "\"%s\"."
+
+#~ msgid "Option not accepted for --sudo-mode: %s\n"
+#~ msgstr "Volba pro --sudo-mode nebyla přijata: %s\n"
+
+#~ msgid "<b>Please enter %s's password</b>"
+#~ msgstr "<b>Zadejte heslo uživatele %s</b>"
+
+#~ msgid "Remember password"
+#~ msgstr "Pamatovat si heslo"
+
+#~ msgid "Save for this session"
+#~ msgstr "Uložit pro toto sezení"
+
+#~ msgid "Save in the keyring"
+#~ msgstr "Uložit na klíčenku"
+
+#~ msgid ""
+#~ "Failed to run %s as user %s:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "Selhalo spuštění %s pod uživatelem %s:\n"
+#~ " %s"
+
+#~ msgid "Unable to run %s: %s"
+#~ msgstr "Nemohu spustit %s: %s"
+
+#~ msgid "Always request a password"
+#~ msgstr "Vždy vyžadovat heslo"
+
+#~ msgid "Disable keyboard and mouse grab"
+#~ msgstr "Zakázat zachytávání klávesnice a myši"
+
+#~ msgid "Display information message when no password is needed"
+#~ msgstr "Zobrazovat informační zprávu pokud není vyžadováno heslo"
+
+#~ msgid "Force keyboard and mouse grab"
+#~ msgstr "Vynutit zachytávání klávesnice a myši"
+
+#~ msgid ""
+#~ "Grab keyboard and mouse even if -g has been passed as argument on the "
+#~ "command line."
+#~ msgstr ""
+#~ "Zachytí klávesnici a myš i když byl na příkazové řádce zadán parametr -g."
+
+#~ msgid "Keyring to which passwords will be saved"
+#~ msgstr "Klíčenka, na kterou budou ukládána hesla"
+
+#~ msgid "Prompt for grabbing"
+#~ msgstr "Dotazovat se na zachytávání"
+
+#~ msgid "Save password to mate-keyring"
+#~ msgstr "Ukládat hesla na mate-keyring"
+
+#~ msgid "Sudo mode"
+#~ msgstr "Režim sudo"
+
+#~ msgid ""
+#~ "The name of the keyring gksu should use. Usual values are \"session\", "
+#~ "which saves the password for the session, and \"default\", which saves "
+#~ "the password with no timeout."
+#~ msgstr ""
+#~ "Jméno klíčenky, které má gksu používat. Obvyklé hodnoty jsou \"session\", "
+#~ "což uloží heslo po dobu sezení, a \"default\", což uloží heslo bez "
+#~ "časového omezení."
+
+#~ msgid ""
+#~ "This option determines whether a message dialog will be displayed "
+#~ "informing the user that the program is being run without the need of a "
+#~ "password being asked for some reason."
+#~ msgstr ""
+#~ "Tato volba určuje, zda se zobrazí dialog informující uživatele o faktu, "
+#~ "že právě spouštěný program z nějakého důvodu nevyžaduje zadání hesla."
+
+#~ msgid ""
+#~ "This option will make gksu prompt the user if he wants to have the screen "
+#~ "grabbed before entering the password. Notice that this only has an effect "
+#~ "if force-grab is disabled."
+#~ msgstr ""
+#~ "Zapnutím této volby se bude gksu ptát uživatele, zda si přeje před "
+#~ "zadáváním hesla zachytit obrazovku. Volba má vliv pouze v případě, že je "
+#~ "vypnutá volba force-grab."
+
+#~ msgid ""
+#~ "This option will prevent gksu from trying to figure out if a password is "
+#~ "needed to run the command, or if it can be obtained through other ways, "
+#~ "such as mate-keyring, making it simply ask for the password every time."
+#~ msgstr ""
+#~ "Touto volbou gksu zakážete, aby se snažilo zjistit, zda je pro spuštění "
+#~ "programu vyžadováno heslo, nebo zda se nedá získat jiným způsobem, "
+#~ "například z mate-keyring. Gksu se tak bude na heslo ptát pokaždé."
+
+#~ msgid ""
+#~ "Whether sudo should be the default backend method. This method is "
+#~ "otherwise accessed though the -S switch or by running 'gksudo' instead of "
+#~ "'gksu'."
+#~ msgstr ""
+#~ "Zda se má sudo používat jako výchozí program. Tento režim se jinak zapíná "
+#~ "přepínačem -S nebo spuštěním 'gksudo' namísto 'gksu'."
+
+#~ msgid ""
+#~ "Whether the keyboard and mouse grabbing should be turned off. This will "
+#~ "make it possible for other X applications to listen to keyboard input "
+#~ "events, thus making it not possible to shield from malicious applications "
+#~ "which may be running."
+#~ msgstr ""
+#~ "Zda se má vypnout zachytávání myši a klávesnice. Tím umožníte ostatním X "
+#~ "aplikacím, aby odposlouchávaly zadávané znaky, což znamená, že nebudete "
+#~ "chráněni před zlomyslnými programy, které zrovna mohou běžet."
+
+#~ msgid ""
+#~ "gksu can save the password you type to the mate-keyring so you'll not be "
+#~ "asked everytime"
+#~ msgstr ""
+#~ "gksu může uložit zadané heslo do mate-keyring, takže na ně nebudete "
+#~ "pokaždé dotazováni."
+
+#~ msgid ""
+#~ "Opens a dialog where you can type a command to be run as a given user"
+#~ msgstr ""
+#~ "Otevře dialog, ve kterém můžete zadat příkaz, který se má spustit pod "
+#~ "jiným uživatelem"
+
+#~ msgid "Run as different user"
+#~ msgstr "Spustit jako jiný uživatel"

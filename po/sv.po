@@ -1,0 +1,301 @@
+# Swedish translation of gksu
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Daniel Nylander <po@danielnylander.se>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2006-09-17 20:41+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu version %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Användning: %s [-u <användare>] [flaggor] <kommando>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    Skriv ut information på skärmen som kan vara\n"
+"    användbar för diagnoser och/eller problemlösning.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <användare>, -u <användare>\n"
+"    Anropa <kommando> som angiven användare.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Inaktivera \"låsning\" av tangentbordet, musen,\n"
+"    och fokus som gjorts av programmet vid fråga\n"
+"    efter lösenordet.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Fråga användaren om han/hon vill fånga sitt tangentbord\n"
+"    och mus innan det görs.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Behåll aktuella miljöer, ställer inte in $HOME\n"
+"    inte heller $PATH, till exempel.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Gör detta till ett inloggningsskal. Tänk på att detta\n"
+"    orsaka problem med magin i Xauthority. Kör xhost\n"
+"    för att tillåts målanvändaren att öppna fönster på\n"
+"    din display!\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <beskrivning|fil>, -D <beskrivning|fil>\n"
+"    Tillhandahåll ett beskrivande namn för kommandot att\n"
+"    användas i standardmeddelandet, som gör det finare.\n"
+"    Du kan även tillhandahålla den absoluta sökvägen till\n"
+"    en .desktop-fil. Nyckeln Namn kommer då att användas\n"
+"    i detta fall.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <meddelande>, -m <meddelande>\n"
+"    Ersätt standardmeddelandet som visas för att fråga\n"
+"    efter lösenordet för argumentet som skickats till flaggan.\n"
+"    Använd endast denna om --description inte räcker till.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    Be gksu om att skriva ut lösenordet till standard ut,\n"
+"    precis som ssh-askpass. Användbar i skript med\n"
+"    program som kan ta emot lösenord via standard in.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Gör så att GKSu använder sudo istället för su, som om den\n"
+"    hade körts som \"gksudo\".\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --su-mode, -w\n"
+"    Gör så att GKSu använder su, istället för att använda\n"
+"    standarden i libgksu.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Avancerade alternativ"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Alternativ att använda vid byte av användare</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "in_loggningsskal"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "_behåll miljö"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Kör program"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Kör:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Som användare:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "_Avancerat"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Saknar kommando att köra."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "Flagga tillåts inte för --disable-grab: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "Flagga tillåts inte för --prompt: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Vill du att din skärm ska \"fångas\"\n"
+"under tiden du matar in lösenordet?</b>\n"
+"\n"
+"Det här betyder att alla program kommer att\n"
+"pausas för att förhindra avlyssning efter ditt\n"
+"lösenord av ett ondsint program när du\n"
+"matar in det."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Saknade flaggor eller argument</b></big>\n"
+"\n"
+"Du behöver tillhandahålla --description eller --message."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Misslyckades med att begära lösenord.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr "Användaren %s finns inte."
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Felaktigt lösenord... försök igen.</b>"
+
+#: ../gksu/gksu.c:760
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"Misslyckades med att köra %s som användare %s:\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Öppnar en terminal som root-användaren och använder gksu för att fråga efter "
+"lösenordet"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Root-terminal"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Öppna som administratör"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "Öppnar filen med administratörens rättigheter"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+"<big><b>Kunde inte fastställa vilket program som ska köras.</b></big>\n"
+"\n"
+"Objektet du valde kan inte öppnas med administratörens rättigheter därför "
+"att det korrekta programmet inte kunde fastställas."

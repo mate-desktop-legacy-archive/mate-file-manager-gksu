@@ -1,0 +1,297 @@
+# GKsu potfile: brazillian portuguese translation.
+# Copyright (C) 2002-2006 Free Software Foundation, Inc.
+# Gustavo Noronha Silva <kov@debian.org>, 2002-2006.
+# Guilherme de S. Pastore <gpastore@colband.com.br>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu 1.9.2\n"
+"Report-Msgid-Bugs-To: kov@debian.org\n"
+"POT-Creation-Date: 2007-05-11 00:59-0300\n"
+"PO-Revision-Date: 2006-07-17 21:35-0300\n"
+"Last-Translator: Gustavo Noronha Silva <kov@debian.org>\n"
+"Language-Team: Debian-BR <debian-l10n-portuguese@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu versão %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Uso: %s [-u <usuário>] [opções] <comando>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\n"
+"    Exibe na tela informação que pode ser útil para\n"
+"    diagnosticar e/ou resolver problemas.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <usuário>, -u <usuário>\n"
+"    Chama <comando> como o usuário especificado.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Desabilita o \"bloqueio\" do teclado, mouse e foco\n"
+"    feito pelo programa quando pede a senha.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Pergunta ao usuário se ele quer que o teclado e o\n"
+"    mouse sejam bloqueados antes de bloqueá-los.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Preserva o ambiente atual; não redefine $HOME, nem $PATH,\n"
+"    por exemplo.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Faz a shell de execução uma shell de login. Note que\n"
+"    isso pode causar problemas com a mágica de autorização\n"
+"    X. Use o programa xhost para permitir que o usuário alvo\n"
+"    possa abrir janelas no seu display!\n"
+
+#: ../gksu/gksu.c:99
+#, fuzzy
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <descrição|arquivo>, -D <descrição|arquivo>\n"
+"    Fornece um nome descritivo para o comando que será usado\n"
+"    pela mensagem padrão, tornando-a mais agradável. Você\n"
+"    pode também passar o caminho absoluto para um arquivo\n"
+"    .desktop. A chave Name será usada, nesse caso.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <mensagem>, -m <mensagem>\n"
+"    Troca a mensagem padrão exibida para pedir a senha\n"
+"    pelo argumento passado para essa opção. Só use isso\n"
+"    se a opção --description não for suficiente.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    Pede ao gksu para exibir a senha para a saída padrão,\n"
+"    como o ssh-askpass. Útil para usar em scripts com\n"
+"    programas que aceitam receber a senha na entrada\n"
+"    padrão.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Faz o GKSu usar o sudo ao invés do su, como se ele tivesse\n"
+"    sido executado como \"gksudo\".\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --su-mode, -w\n"
+"    Faz o GKSu usar o su, ignorando o padrão da\n"
+"    libgksu.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr ""
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr ""
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr ""
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr ""
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr ""
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr ""
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr ""
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr ""
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Comando para ser executado faltando."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "Opção não aceita para --disable-grab: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "Opção não aceita para --promppt: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Você quer que sua tela seja \"monopolizada\"\n"
+"enquanto digita a senha?</b>\n"
+"\n"
+"Isso significa que todas as aplicações serão pausadas\n"
+"para evitar que alguma aplicação maliciosa intercepte\n"
+"sua senha enquanto você a digita."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Faltam opções ou argumentos</b></big>\n"
+"\n"
+"Você precisa passar pelo menos --description ou --message."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Falha ao pedir senha.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:711
+#, c-format
+msgid "User %s does not exist."
+msgstr "Usuário %s não existe."
+
+#: ../gksu/gksu.c:731
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Senha incorreta... tente novamente.</b>"
+
+#: ../gksu/gksu.c:760
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Falha ao executar %s como usuário %s.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr "Abre um terminal como usuário root, usando o gksu para pedir a senha"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Terminal como Root"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Abrir como administrador"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "Abre o arquivo com privilégios de administrador"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+
+#~ msgid "Granting Rights"
+#~ msgstr "Concedendo Direitos"

@@ -1,0 +1,441 @@
+# Catalan translation of GKSu.
+# Copyright © 2004, 2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Jordi Mallach <jordi@sindominio.net>, 2004, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gksu 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-19 16:11-0300\n"
+"PO-Revision-Date: 2006-12-29 00:45+0100\n"
+"Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
+"Language-Team: Catalan <tradmate@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gksu/gksu.c:74
+#, c-format
+msgid ""
+"GKsu version %s\n"
+"\n"
+msgstr ""
+"GKsu versió %s\n"
+"\n"
+
+#: ../gksu/gksu.c:75
+#, c-format
+msgid ""
+"Usage: %s [-u <user>] [options] <command>\n"
+"\n"
+msgstr ""
+"Forma d'ús: %s [-u <usuari>] [opcions] <ordre>\n"
+"\n"
+
+#: ../gksu/gksu.c:76
+msgid ""
+"  --debug, -d\n"
+"    Print information on the screen that might be\n"
+"    useful for diagnosing and/or solving problems.\n"
+msgstr ""
+"  --debug, -d\\n\n"
+"    Imprimeix informació a la pantalla que pot ser\n"
+"    útil per a diagnosticar i/o resoldre problemes.\n"
+
+#: ../gksu/gksu.c:79 ../gksu/gksu.c:82 ../gksu/gksu.c:98 ../gksu/gksu.c:109
+#: ../gksu/gksu.c:115
+msgid "\n"
+msgstr "\n"
+
+#: ../gksu/gksu.c:80
+msgid ""
+"  --user <user>, -u <user>\n"
+"    Call <command> as the specified user.\n"
+msgstr ""
+"  --user <usuari>, -u <usuari>\n"
+"    Executa <ordre> com a l'usuari especificat.\n"
+
+#: ../gksu/gksu.c:83
+msgid ""
+"  --disable-grab, -g\n"
+"    Disable the \"locking\" of the keyboard, mouse,\n"
+"    and focus done by the program when asking for\n"
+"    password.\n"
+msgstr ""
+"  --disable-grab, -g\n"
+"    Inhabilita el «blocatge» del teclat, ratolí i focus\n"
+"    que realitza el programa quan demana una contrasenya.\n"
+
+#: ../gksu/gksu.c:87
+msgid ""
+"  --prompt, -P\n"
+"    Ask the user if they want to have their keyboard\n"
+"    and mouse grabbed before doing so.\n"
+msgstr ""
+"  --prompt, -P\n"
+"    Pregunta si es vol que es capture el teclat i el\n"
+"    ratolí abans de fer-ho.\n"
+
+#: ../gksu/gksu.c:90
+msgid ""
+"  --preserve-env, -k\n"
+"    Preserve the current environments, does not set $HOME\n"
+"    nor $PATH, for example.\n"
+msgstr ""
+"  --preserve-env, -k\n"
+"    Preserva els entorns actuals, no estableixes $HOME, o $PATH,\n"
+"    per exemple.\n"
+
+#: ../gksu/gksu.c:93
+msgid ""
+"  --login, -l\n"
+"    Make this a login shell. Beware this may cause\n"
+"    problems with the Xauthority magic. Run xhost\n"
+"    to allow the target user to open windows on your\n"
+"    display!\n"
+msgstr ""
+"  --login, -l\n"
+"    Fes que aquest intèrpret siga d'entrada. Això pot causar\n"
+"    problemes amb la màgia Xauthority. Executeu xhost per a\n"
+"    permetre que usuari objectiu puga obrir finestres a la vostra\n"
+"    visualització.\n"
+
+#: ../gksu/gksu.c:99
+msgid ""
+"  --description <description|file>, -D <description|file>\n"
+"    Provide a descriptive name for the command to\n"
+"    be used in the default message, making it nicer.\n"
+"    You can also provide the absolute path for a\n"
+"    .desktop file. The Name key for will be used in\n"
+"    this case.\n"
+msgstr ""
+"  --description <descripció|fitxer>, -D <descripció|fitxer>\n"
+"    Proveeix un nom descriptiu per a l'ordre per a utilitzar-se\n"
+"    al missatge per defecte, fent-ho més atractiu.\n"
+"    També podeu proveir el camí absolut a un fitxer .desktop.\n"
+"    En aquest cas, s'utilitzarà la clau Name.\n"
+
+#: ../gksu/gksu.c:105
+msgid ""
+"  --message <message>, -m <message>\n"
+"    Replace the standard message shown to ask for\n"
+"    password for the argument passed to the option.\n"
+"    Only use this if --description does not suffice.\n"
+msgstr ""
+"  --message <missatge>, -m <missatge>\n"
+"    Reemplaça el missatge estàndard que es mostra quan\n"
+"    es demana una contrasenya amb l'argument donat a\n"
+"    l'opció. Useu això només si --description no és suficient.\n"
+
+#: ../gksu/gksu.c:110
+msgid ""
+"  --print-pass, -p\n"
+"    Ask gksu to print the password to stdout, just\n"
+"    like ssh-askpass. Useful to use in scripts with\n"
+"    programs that accept receiving the password on\n"
+"    stdin.\n"
+msgstr ""
+"  --print-pass, -p\n"
+"    Imprimeix la contrasenya a la sortida estàndard,\n"
+"    igual que ssh-askpass. És útil per a utilitzar-ho a\n"
+"    seqüències amb programes que accepten rebre la\n"
+"    contrasenya per l'entrada estàndard.\n"
+
+#: ../gksu/gksu.c:116
+msgid ""
+"  --sudo-mode, -S\n"
+"    Make GKSu use sudo instead of su, as if it had been\n"
+"    run as \"gksudo\".\n"
+msgstr ""
+"  --sudo-mode, -S\n"
+"    Fes que GKSu utilitze sudo en comptes de su, com si s'haguès\n"
+"    executat com a «gksudo».\n"
+
+#: ../gksu/gksu.c:119
+msgid ""
+"  --su-mode, -w\n"
+"    Make GKSu use su, instead of using libgksu's\n"
+"    default.\n"
+msgstr ""
+"  --su-mode, -w\n"
+"    Fes que GKSu utilitze su, en comptes d'utilitzar\n"
+"    el programa per defecte de libgksu.\n"
+
+#: ../gksu/gksu.c:229
+msgid "Advanced options"
+msgstr "Opcions avançades"
+
+#: ../gksu/gksu.c:245
+msgid "<b>Options to use when changing user</b>"
+msgstr "<b>Opcions a utilitzar quan es canvia d'usuari</b>"
+
+#. login shell? (--login)
+#: ../gksu/gksu.c:250
+msgid "_login shell"
+msgstr "_intèrpret d'entrada"
+
+#: ../gksu/gksu.c:258
+msgid "_preserve environment"
+msgstr "_preserva l'entorn"
+
+#: ../gksu/gksu.c:359
+msgid "Run program"
+msgstr "Executa el programa"
+
+#. command
+#: ../gksu/gksu.c:378
+msgid "Run:"
+msgstr "Executa:"
+
+#. user name
+#: ../gksu/gksu.c:389
+msgid "As user:"
+msgstr "Com a l'usuari:"
+
+#. advanced button
+#: ../gksu/gksu.c:406
+msgid "_Advanced"
+msgstr "_Avançat"
+
+#: ../gksu/gksu.c:442 ../gksu/gksu.c:663
+msgid "Missing command to run."
+msgstr "Manca l'ordre a executar."
+
+#: ../gksu/gksu.c:545
+#, c-format
+msgid "Option not accepted for --disable-grab: %s\n"
+msgstr "No s'ha acceptat l'opció per a --disable-grab: %s\n"
+
+#: ../gksu/gksu.c:577
+#, c-format
+msgid "Option not accepted for --prompt: %s\n"
+msgstr "No s'ha acceptat l'opció per a --prompt: %s\n"
+
+#: ../gksu/gksu.c:603
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>Voleu que es «capture» la vostra pantalla mentre\n"
+"escriviu la vostra contrasenya?</b>\n"
+"\n"
+"Això vol dir que es pausaran totes les aplicacions per\n"
+"a evitar que una aplicació maliciosa us espie mentre\n"
+"introduïu la vostra contrasenya."
+
+#: ../gksu/gksu.c:627
+msgid ""
+"<big><b>Missing options or arguments</b></big>\n"
+"\n"
+"You need to provide --description or --message."
+msgstr ""
+"<big><b>Manquen opcions o arguments</b></big>\n"
+"\n"
+"Heu d'utilitzar --description o --message."
+
+#: ../gksu/gksu.c:637
+#, c-format
+msgid ""
+"<b>Failed to request password.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>No s'ha pogut demanar la contrasenya.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu/gksu.c:693
+#, c-format
+msgid "User %s does not exist."
+msgstr "L'usuari %s no existeix."
+
+#: ../gksu/gksu.c:713
+msgid "<b>Incorrect password... try again.</b>"
+msgstr "<b>Contrasenya incorrecta... proveu-ho de nou.</b>"
+
+#: ../gksu/gksu.c:742
+#, c-format
+msgid ""
+"<b>Failed to run %s as user %s.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>No s'ha pogut executar %s com a l'usuari %s.</b>\n"
+"\n"
+"%s"
+
+#: ../gksu.desktop.in.h:1
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Obre un terminal com a l'usuari root, utilitzat gksu per a demanar la "
+"contrasenya"
+
+#: ../gksu.desktop.in.h:2
+msgid "Root Terminal"
+msgstr "Terminal root"
+
+#: ../caja-gksu/libcaja-gksu.c:136
+msgid "Open as administrator"
+msgstr "Obre com a l'administrador"
+
+#: ../caja-gksu/libcaja-gksu.c:137
+msgid "Opens the file with administrator privileges"
+msgstr "Obre el fitxer amb privilegis d'administrador"
+
+#: ../caja-gksu/libcaja-gksu.c:230
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the "
+"correct application cannot be determined."
+msgstr ""
+"<big><b>No es pot determinar el programa a executar.</b></big>\n"
+"\n"
+"L'element que heu seleccionat no es pot obrir amb privilegis d'administrador "
+"perquè no es pot determinar quina és l'aplicació correcta."
+
+#~ msgid ""
+#~ "Could not grab your mouse.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "No s'ha pogut capturar el ratolí.\n"
+#~ "Un client malciós pot estar espiant\n"
+#~ "la vostra sessió."
+
+#~ msgid ""
+#~ "Could not grab your keyboard.\n"
+#~ "A malicious client may be eavesdropping\n"
+#~ "on your session."
+#~ msgstr ""
+#~ "No s'ha pogut capturar el ratolí.\n"
+#~ "Un client malciós pot estar espiant\n"
+#~ "la vostra sessió."
+
+#~ msgid "Not using locking for read only lock file %s"
+#~ msgstr ""
+#~ "No s'està utilitzant blocatge per al fitxer de blocatge de només lectura %"
+#~ "s"
+
+#~ msgid "Not using locking for nfs mounted lock file %s"
+#~ msgstr ""
+#~ "No s'està utilitzant blocatge per al fitxer de blocatge muntat per nfs %s"
+
+#~ msgid ""
+#~ "<b>Please enter your password\n"
+#~ "to run %s as user %s</b>"
+#~ msgstr ""
+#~ "<b>Si us plau, introduïu la vostra contrasenya\n"
+#~ "per a executar %s com a l'usuari %s</b>"
+
+#~ msgid "Option not accepted for --sudo-mode: %s\n"
+#~ msgstr "No s'ha acceptat l'opció per a --sudo-mode: %s\n"
+
+#~ msgid "Unable to run %s/bin/gksu: %s"
+#~ msgstr "No s'ha pogut executar %s/bin/gksu: %s"
+
+#~ msgid "WARNING: Could not stat %s: %s.\n"
+#~ msgstr "AVÍS: No s'ha pogut fer stat sobre %s: %s.\n"
+
+#~ msgid "FATAL: File %s is not owned by root.\n"
+#~ msgstr "FATAL: El propietari del fitxer %s no és root.\n"
+
+#~ msgid "FATAL: File %s is not owned by group root.\n"
+#~ msgstr "FATAL: El grup del fitxer %s no és root.\n"
+
+#~ msgid "FATAL: File %s has wrong permissions, should be 0644.\n"
+#~ msgstr "FATAL: El fitxer %s té permisos incorrectes, hauria de ser 0644.\n"
+
+#~ msgid "FATAL: Could not open %s: %s.\n"
+#~ msgstr "FATAL: No s'ha pogut obrir %s: %s.\n"
+
+#~ msgid ""
+#~ "<b>Please enter %s's password\n"
+#~ "to run %s.</b>"
+#~ msgstr ""
+#~ "<b>Si us plau, introduïu la contrasenya de l'usuari %s\n"
+#~ "per a executar %s.</b>"
+
+#~ msgid ""
+#~ "GKsu version %s\n"
+#~ "\n"
+#~ "Usage: %s [-u <user>] [-k] [-l] <command>\n"
+#~ "\n"
+#~ "  --user <user>, -u <user>\n"
+#~ "    Calls <command> as the specified user\n"
+#~ "  --message <message>, -m <message>\n"
+#~ "    Replaces the standard message shown to ask for\n"
+#~ "    password for the argument passed to the option\n"
+#~ "  --title <title>, -t <title>\n"
+#~ "    Replaces the default title with the argument\n"
+#~ "  --icon <icon>, -i <icon>\n"
+#~ "    Replaces the default window icon with the argument\n"
+#~ "  --print-pass, -p\n"
+#~ "    Asks gksu to print the password to stdout, just\n"
+#~ "    like ssh-askpass. Useful to use in scripts with\n"
+#~ "    programs that accept receiving the password on\n"
+#~ "    stdin.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Disables the \"locking\" of the keyboard, mouse,\n"
+#~ "    and focus done by the program when asking for\n"
+#~ "    password\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Strip the host part of the $DISPLAY variable, so that\n"
+#~ "    GKSu will work on SSH X11 Forwarding.\n"
+#~ "\n"
+#~ "  --login, -l\n"
+#~ "    Makes this a login shell. Beware this may cause\n"
+#~ "    problems with the Xauthority magic. Run xhost\n"
+#~ "    to allow the target user to open windows on your\n"
+#~ "    display!\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Preserve the current environments, does not set $HOME\n"
+#~ "    nor $PATH, for example.\n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "GKsu versió %s\n"
+#~ "\n"
+#~ "Forma d'ús: %s [-u <usuari>] [-k] [-l] <ordre>\n"
+#~ "\n"
+#~ "  --user <usuari>, -u <usuari>\n"
+#~ "    Executa <ordre> com a l'usuari especificat\n"
+#~ "  --message <missatge>, -m <missatge>\n"
+#~ "    Reemplaça el missatge estàndard mostrat per a\n"
+#~ "    demanar la contrasenya per l'argument passat a\n"
+#~ "    l'opció\n"
+#~ "  --title <títol>, -t <títol>\n"
+#~ "    Reemplaça el títol per defecte amb l'argument\n"
+#~ "  --icon <icona>, -i <icona>\n"
+#~ "    Reemplaça la icona predeterminada de la finestra\n"
+#~ "    amb l'argument\n"
+#~ "  --print-pass, -p\n"
+#~ "    Demana a gksu que mostre la contrasenya per\n"
+#~ "    la sortida estàndard, com ssh-askpass. Útil per a\n"
+#~ "    l'ús en scripts amb programes que accepten rebre\n"
+#~ "    la contrasenya per l'entrada estàndard.\n"
+#~ "  --disable-grab, -g\n"
+#~ "    Inhabilita el «blocatge» del teclat, ratolí i focus\n"
+#~ "    fet pel programa quan demana una contrasenya\n"
+#~ "  --ssh-fwd, -s\n"
+#~ "    Elimina la part del servidor de la variable $DISPLAY,\n"
+#~ "    per a que GKSu funcione amb les redireccions X11 de SSH\n"
+#~ "\n"
+#~ "  --login, -l\n"
+#~ "    Fes això un intèrpret d'entrada. Teniu en compte que això\n"
+#~ "    pot causar problemes amb la màgia Xauthority. Executeu\n"
+#~ "    xhost per a permetre a l'usuari objectiu obrir finestres\n"
+#~ "    a la vostra visualització!\n"
+#~ "  --preserve-env, -k\n"
+#~ "    Preserva l'entorn actual, no estableixes $HOME o $PATH,\n"
+#~ "    per exemple.\n"
+#~ "\n"
+#~ "\n"
+
+#~ msgid "Using %s as username...\n"
+#~ msgstr "S'està utilitzant %s com a nom d'usuari...\n"
