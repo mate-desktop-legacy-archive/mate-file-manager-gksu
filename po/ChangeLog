@@ -56,7 +56,7 @@
 2006-11-15  Gustavo Noronha Silva  <kov@debian.org>
 
 	* hu.po: Hungarian translation updated by
-	  Gabor Kelemen <kelemeng@mate.hu>
+	  Gabor Kelemen <kelemeng@gnome.hu>
 
 2006-09-20  Gustavo Noronha Silva  <kov@debian.org>
 
@@ -155,7 +155,7 @@
 2005-10-16  Gustavo Noronha Silva  <kov@debian.org>
 
 	* hu.po: translation update by Gabor Kelemen
-	  <kelemeng@mate.hu>
+	  <kelemeng@gnome.hu>
 
 2005-10-09  Gustavo Noronha Silva  <kov@debian.org>
 
@@ -252,7 +252,7 @@
 
 	* hu.po:
 	- new Hungarian translation done by Kelemen Gábor 
-	  <kelemeng@mate.hu>
+	  <kelemeng@gnome.hu>
 
 	* nl.po:
 	- Ronald has done some fixing based on suggestions by

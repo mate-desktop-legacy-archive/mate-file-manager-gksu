@@ -1,5 +1,5 @@
 # Japanese translation for gksu.
-# Copyright (C) 2008 Debian MATE Maintainers <pkg-mate-maintainers@lists.alioth.debian.org>
+# Copyright (C) 2008 Debian MATE Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 # This file is distributed under the same license as the gksu package.
 # fujiwara <takao.fujiwara@sun.com>, 2008
 #
