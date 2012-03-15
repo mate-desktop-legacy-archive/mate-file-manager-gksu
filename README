@@ -1,30 +1,3 @@
-GKSu README
+This is a fork of nautilus-gksu.
 
-* Home Page
-
-GKSu is hosted at Savannah! Check http://www.nongnu.org/gksu out.
-
-* Configuration
-
-If you're upgrading from a version lower than 1.3.2, you might have
-used the /etc/gksu.conf file to setup gksu's behavior. From that version
-on gksu uses mateconf for its configuration. There's a script called
-gksu-migrate-conf.sh which can be used to setup the mateconf system according
-to your old config file setup. Just run it with the configuration file
-as its first argument.
-
-The script will be located in ${datadir}/gksu. On 'usual' instalations
-that would be /usr/share/gksu or /usr/local/share/gksu.
-
-Notice that the mateconf stuff has been moved to libgksu since the 1.9.x
-development series.
-
-See gksu(1) for details.
-
-* BUGS
-
-Please report bugs directly to my email address, or through the
-Savannahs's BTS. If you are using the Debian package feel free
-to use the Debian BTS.
-
-                        -- Gustavo Noronha Silva <kov@debian.org>
+http://www.mate-desktop.org/

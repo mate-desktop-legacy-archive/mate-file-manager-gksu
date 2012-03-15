@@ -3,7 +3,7 @@
 
 AC_PREREQ(2.57)
 
-AC_INIT(caja-gksu, 1.1.0, stefano@karapetsas.com)
+AC_INIT(caja-gksu, 1.2.0, http://www.mate-desktop.org/)
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 AC_CONFIG_SRCDIR(caja-gksu/libcaja-gksu.c)
 AM_CONFIG_HEADER(config.h)
