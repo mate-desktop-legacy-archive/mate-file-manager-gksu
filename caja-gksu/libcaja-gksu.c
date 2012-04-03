@@ -4,8 +4,7 @@
 #include <sys/wait.h>
 #include <string.h>
 #include <pthread.h>
-
-#include <glib/gkeyfile.h>
+#include <glib.h>
 #include <gtk/gtk.h>
 #include <gio/gio.h>
 #include <libcaja-extension/caja-extension-types.h>
