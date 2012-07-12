@@ -1,0 +1,264 @@
+========== ar.po ==========
+# translation of gksu-2.0.0.po to Arabic
+# Arabic translation for gksu
+# Copyright (C) 2005, 2006, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+#
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007.
+
+
+
+
+========== ca.po ==========
+# Catalan translation of GKSu.
+# Copyright © 2004, 2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Jordi Mallach <jordi@sindominio.net>, 2004, 2005, 2006.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation of gksu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Miroslav Kure <kurem@debian.cz>, 2005, 2006.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation of GKsu.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GKsu package.
+# Morten Brix Pedersen <morten@wtf.dk>, 2004.
+#
+
+
+
+
+========== de.po ==========
+# translation of de.po to Deutsch
+# German translation of GKsu.
+# Copyright (C) 2003, 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GKsu package.
+# Sebastian Heinlein <sebastian.heinlein@web.de>, 2003,2004.
+# Thomas Templin <templin@gnuwhv.de>, 2005.
+#
+#
+
+
+
+
+========== es.po ==========
+# translation of es.po to Spanish
+# Spanish traduction for gksu.
+# Copyright (C) 2003, 2004, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+#
+# Enrique Rodriguez <krm@futurnet.es>, 2003.
+# Francisco Javier F. Serrador <serrador@cvs.mate.org>, 2004, 2006.
+# Javier Fernández-Sanguino <jfs@debian.org>, 2005-2006.
+
+
+
+
+========== fr.po ==========
+# French translation for gksu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+#
+# Initial translation by Sebastien Bacher <seb128@debian.org>
+#
+
+
+
+
+========== gl.po ==========
+# translation of gl.po to Galego
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2006.
+# Ignacio Casal Quinteiro <icq@cvs.mate.org>, 2007.
+
+
+
+
+========== hu.po ==========
+# Hungarian translation of gksu
+# Copyright (C)2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+#
+# Gabor Kelemen <kelemeng@mate.hu>, 2005, 2006.
+
+
+
+
+========== it.po ==========
+# Italian translation of gksu.
+# Copyright (C) 2005 THE gksu'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gksu package.
+# Andrea Zagli <azagli@inwind.it>, 2005-2006.
+# 
+# 
+
+
+
+
+========== ja.po ==========
+# Japanese translation for gksu.
+# Copyright (C) 2008 Debian MATE Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+# This file is distributed under the same license as the gksu package.
+# fujiwara <takao.fujiwara@sun.com>, 2008
+#
+
+
+
+
+========== ko.po ==========
+# This file is distributed under the same license as the gksu package.
+# Changwoo Ryu <cwryu@debian.org>, 2006, 2007.
+#
+
+
+
+
+========== lt.po ==========
+# translation of gksu-lt.po to Lithuanian
+# Lithuanian translation for gksu
+# This file is distributed under the same license as the gksu package.
+#
+# Linas Bukauskas <linas@sig.lt>, 2006
+# Gintautas Miliauskas <gintas@akl.lt>, 2006.
+
+
+
+
+========== nb.po ==========
+# Norwegian Bokmaal translation of GKsu.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GKsu package.
+# Vidar Braut Haarr <mabus_at_q1n_org>, 2004.
+#
+
+
+
+
+========== nl.po ==========
+# nl translation for gksu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Ronald van Engelen <ronalde@lacocina.nl>, 2005.
+#
+
+
+
+
+========== pl.po ==========
+# Polish translation of gksu.
+# Copyright (C) 2002-2006 Gustavo Noronha Silva
+# This file is distributed under the same license as the gksu package.
+# Wiktor Wandachowicz <siryes@gmail.com>, 2006.
+#
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aktualną wersję tego pliku możesz odnaleźć w repozytorium www.matepl.org
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+#
+
+
+
+
+========== pt.po ==========
+# GKsu potfile: portuguese translation.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Luis Matos  <gass@otiliamatos.ath.cx> , 2004
+#
+
+
+
+
+========== pt_BR.po ==========
+# GKsu potfile: brazillian portuguese translation.
+# Copyright (C) 2002-2006 Free Software Foundation, Inc.
+# Gustavo Noronha Silva <kov@debian.org>, 2002-2006.
+# Guilherme de S. Pastore <gpastore@colband.com.br>, 2005.
+
+
+
+
+========== ro.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Sorin Batariuc <sorin@bonbon.net>, 2005.
+#
+
+
+
+
+========== ru.po ==========
+# translation of ru.po to ru
+# translation of gksu.po to ru
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Aleksander <murygin@aitoc.com>, 2003
+#
+
+
+
+
+========== sk.po ==========
+# Slovak translation for gksu
+# Copyright (c) 2005 Canonical Ltd, and Rosetta Contributors 2005
+# This file is distributed under the same license as the gksu package.
+# Peter Chabada <sk-i18n_chabada_sk>, 2005.
+#
+
+
+
+
+========== sv.po ==========
+# Swedish translation of gksu
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Daniel Nylander <po@danielnylander.se>, 2006.
+#
+
+
+
+
+========== th.po ==========
+# Thai translation of gksu.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gksu package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2009.
+#
+
+
+
+
+========== xh.po ==========
+# Xhosa translation of gksu
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the gksu package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+
+
+
+
+========== zh_CN.po ==========
+# Chinese translations for PACKAGE package
+# PACKAGE 软件包的简体中文翻译.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <zyangmath@gmail.com>, 2007.
+#
+
+
+
+
