@@ -40,9 +40,6 @@ fi
 
 AC_SUBST(HTML_DIR)
 
-AC_PATH_PROG(MATECONFTOOL, mateconftool-2)
-AM_MATECONF_SOURCE_2
-
 PKG_CHECK_MODULES(GKSU, [libgksu2 >= 2.0.8, gtk+-2.0 >= 2.4.0])
 
 gtk_doc_min_version=1.0
