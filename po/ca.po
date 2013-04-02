@@ -39,7 +39,7 @@ msgid ""
 "    Print information on the screen that might be\n"
 "    useful for diagnosing and/or solving problems.\n"
 msgstr ""
-"  --debug, -d\\n\n"
+"  --debug, -d\n\n"
 "    Imprimeix informació a la pantalla que pot ser\n"
 "    útil per a diagnosticar i/o resoldre problemes.\n"
 

@@ -21,8 +21,6 @@ AC_PROG_CC
 AC_PROG_INSTALL
 AC_PROG_LIBTOOL
 
-ALL_LINGUAS="ar ca cs da de es fr gl hu it ja ko lt pl pt pt_BR ro ru nb nl sk sv xh th zh_CN"
-
 IT_PROG_INTLTOOL
 AM_GLIB_GNU_GETTEXT
 
